@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>CineSpot</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- /Google Fonts-->
+
+  <style>
+    @font-face {
+      font-family: FntNtx;
+      src: url(Fontes/Bebas-Regular.ttf);
+    }
+  </style>
+</head>
+<body>
+    <header>
+
+      <div class="interface">
+
+        <section class="logo">
+          <img src="Imagens/logo.png" alt="Logo">
+        </section>
+
+        <section class="menu-desktop">
+          <nav>
+            <ul>
+              <li><a href="">Inicio</a></li>
+              <li><a href="#Popular">Filmes</a></li>
+              <li><a href="#Séries">Séries</a></li>
+              <li><a href="">Meus Favoritos</a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="lupa">
+          <img src="Imagens/lupa.png" alt="Lupa">
+        </section>
+      </div>
+    
+    </header>
+
+  <section class="chamada">
+    <div id="video-container">
+      <img id="thumbnail" src="Imagens/interestelar.png" alt="Thumbnail">
+        <img id="close" src="Imagens/Fechar.png" alt="Close">
+
+      <div class="BannerPrincipal">
+        <img id="background" src="Imagens/logo_interestelar.png" alt="interestelar">
+        <h4>
+          <span>2014</span>
+          <span><i>10+</i></span>
+          <span>2h 49min</span>
+          <span>Ficção</span>
+        </h4>
+        <p>
+          Após ver a Terra consumindo boa parte de suas reservas naturais, um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie.
+        </p>
+
+        <div class="buttons">
+          <a href="#" id="playButton"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+          <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Meus Favoritos</a>
+        </div>
+        
+      </div>
+      <video id="myVideo" controls>
+        <source src="Videos/Inter.webm" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+
+  <section class="categoria" id="Popular">
+    <h2>Popular</h2>
+    <img class="arrowright-button" src="Imagens/arrow.png">
+    <img class="arrowleft-button" src="Imagens/arrowleft.png">
+    <div class="categoria-videos"> 
+        <img src="Imagens/Filmes/ATeoriaDeTudo.png" />
+        <img src="Imagens/Filmes/ForAllMankind.png" />
+        <img src="Imagens/Filmes/PerdidoEmMarte.png" />
+        <img src="Imagens/Filmes/ProjetoAlmanaque.png" />
+        <img src="Imagens/Filmes/OJogoDaImitação.png" />
+        <img src="Imagens/Filmes/JovemSheldon.png" />
+        <img src="Imagens/Filmes/GenioIndomavel.png" />
+        <img src="Imagens/Filmes/GeraçãoDoFuturo.png" />
+        <img src="Imagens/Filmes/BirdBox.png" />
+        <img src="Imagens/Filmes/CobraKai.png" />
+    </div>
+  </section>
+
+  <section class="categoria2" id="Séries">
+    <h2>Séries</h2>
+    <img class="arrowright-button2" src="Imagens/arrow.png">
+    <img class="arrowleft-button2" src="Imagens/arrowleft.png">
+    <div class="categoria-videos2"> 
+        <img src="Imagens/Filmes/controlz.png" />
+        <img src="Imagens/Filmes/CobraKai.png" />
+        <img src="Imagens/Filmes/TeenWolf.png" />
+        <img src="Imagens/Filmes/lacasadepapel.png" />
+        <img src="Imagens/Filmes/strangerthings.png" />
+        <img src="Imagens/Filmes/thelastofus.png" />
+        <img src="Imagens/Filmes/roundsix.png" />
+        <img src="Imagens/Filmes/sweettooth.png" />
+        <img src="Imagens/Filmes/lucifer.png" />
+        <img src="Imagens/Filmes/JovemSheldon.png" />
+    </div>
+  </section>
+  <script src="script.js"></script>
+  <script src="scroll.js"></script>
+  <script src="skip.js"></script>
+</body>
+</html>
