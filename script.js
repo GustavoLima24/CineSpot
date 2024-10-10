@@ -20,28 +20,28 @@ document.addEventListener('DOMContentLoaded', function() {
     thumbnail.style.transition = 'opacity 2s ease-in-out';
     thumbnail.style.opacity = 0;
 
-    video.currentTime = 0;
-    
+    video.currentTime = 0; // Reinicia o vídeo para o início
+
     // Esconde o banner principal
     bannerPrincipal.style.transition = 'opacity 2s ease-in-out';
     bannerPrincipal.style.opacity = 0;
 
     // Aguarda a transição de 2 segundos
     setTimeout(() => {
-      thumbnail.style.display = 'none';
-      bannerPrincipal.style.display = 'none';
-      video.style.display = 'block';
-      closeButton.style.display = 'block'; 
+      thumbnail.style.display = 'none'; // Oculta o thumbnail
+      bannerPrincipal.style.display = 'none'; // Oculta o banner principal
+      video.style.display = 'block'; // Exibe o vídeo
+      closeButton.style.display = 'block'; // Exibe o botão de fechar
 
       // Inicia o vídeo após a transição
-      video.play(); 
-    }, 2000); 
+      video.play();
+    }, 2000);
   }
 
   // Função para fechar o vídeo
   function closeVideo() {
-    video.pause();
-    closeButton.style.display = 'none';
+    video.pause(); // Pausa a reprodução do vídeo
+    closeButton.style.display = 'none'; // Oculta o botão de fechar
 
     // Mostra o thumbnail
     thumbnail.style.display = 'block';
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(() => {
       thumbnail.style.opacity = 1;
       bannerPrincipal.style.opacity = 1;
-      video.style.display = 'none';
+      video.style.display = 'none'; // Oculta o vídeo
     }, 100);
   }
 });

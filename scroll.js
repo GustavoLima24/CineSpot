@@ -1,141 +1,39 @@
-const carousel = document.querySelector(".categoria-videos"); // Seleciona o container das imagens
-const carousel2 = document.querySelector(".categoria-videos2"); // Seleciona o container das imagens
+// Seleciona todos os elementos com as classes 'categoria-videos' e 'categoria-videos2'
+const deslizadores = document.querySelectorAll('.categoria-videos, .categoria-videos2');
 
-let isDragging = false;
-let startX;
-let velocity = 0;
-let lastTime = 0;
+// Declara variáveis para controle do deslizamento
+let estaPressionado = false;
+let inicioX;
+let rolarEsquerda;
 
-const deceleration = 0.95; // Adjust this value to control the speed of deceleration
-const forceMultiplier = 10; // Adjust this value to control the force of the push
+// Adiciona os eventos a cada deslizador
+deslizadores.forEach((deslizador) => {
+  // Adiciona um evento ao pressionar o botão do mouse
+  deslizador.addEventListener('mousedown', (e) => {
+    estaPressionado = true; // Define que o botão do mouse está pressionado
+    deslizador.classList.add('active'); // Adiciona a classe 'active' ao deslizador
+    inicioX = e.pageX - deslizador.offsetLeft; // Calcula a posição inicial do cursor
+    rolarEsquerda = deslizador.scrollLeft; // Armazena a posição inicial de rolagem do deslizador
+  });
 
-carousel.addEventListener("mousedown", (event) => {
-  // Prevent text selection on drag
-  event.preventDefault();
+  // Adiciona um evento ao sair do elemento com o mouse
+  deslizador.addEventListener('mouseleave', () => {
+    estaPressionado = false; // Define que o botão do mouse não está mais pressionado
+    deslizador.classList.remove('active'); // Remove a classe 'active' do deslizador
+  });
 
-  isDragging = true;
-  startX = event.clientX;
-  lastTime = event.timeStamp; // Store the timestamp of the mousedown event
-});
+  // Adiciona um evento ao soltar o botão do mouse
+  deslizador.addEventListener('mouseup', () => {
+    estaPressionado = false; // Define que o botão do mouse não está mais pressionado
+    deslizador.classList.remove('active'); // Remove a classe 'active' do deslizador
+  });
 
-carousel.addEventListener("mousemove", (event) => {
-  if (!isDragging) return;
-
-  const movement = event.clientX - startX;
-
-  // Prevent scrolling when dragging at the edges
-  if (
-    movement > 0 && carousel.scrollLeft === 0
-  ) {
-    event.preventDefault();
-  } else if (
-    movement < 0 && carousel.offsetWidth + carousel.scrollLeft === carousel.scrollWidth
-  ) {
-    event.preventDefault();
-  }
-
-  // Apply force multiplier and update scrollLeft
-  carousel.scrollLeft -= movement * forceMultiplier;
-  startX = event.clientX; // Update startX for next movement calculation
-  
-  // Update velocity based on time and movement
-  const currentTime = event.timeStamp;
-  velocity = (movement / (currentTime - lastTime)) * deceleration;
-  velocity += 0.1; // Add acceleration
-  lastTime = currentTime;
-});
-
-carousel.addEventListener("mouseup", () => {
-  isDragging = false;
-
-  // Start a loop to gradually reduce velocity and update scrollLeft
-  let timerId = null;
-  const animate = () => {
-    velocity *= deceleration; // Apply deceleration
-    carousel.scrollLeft -= velocity;
-
-    if (Math.abs(velocity) > 0.1) { 
-      // Continue animation if velocity is above threshold
-      timerId = requestAnimationFrame(animate);
-    } else {
-      cancelAnimationFrame(timerId); // Stop animation
-    }
-  };
-  animate();
-});
-
-// Stop dragging when mouse button is released outside the carousel
-document.addEventListener("mouseup", (event) => {
-  if (!carousel.contains(event.target)) {
-    isDragging = false;
-  }
-});
-
-
-
-
-
-
-
-
-carousel2.addEventListener("mousedown", (event) => {
-  // Prevent text selection on drag
-  event.preventDefault();
-
-  isDragging = true;
-  startX = event.clientX;
-  lastTime = event.timeStamp; // Store the timestamp of the mousedown event
-});
-
-carousel2.addEventListener("mousemove", (event) => {
-  if (!isDragging) return;
-
-  const movement = event.clientX - startX;
-
-  // Prevent scrolling when dragging at the edges
-  if (
-    movement > 0 && carousel2.scrollLeft === 0
-  ) {
-    event.preventDefault();
-  } else if (
-    movement < 0 && carousel2.offsetWidth + carousel2.scrollLeft === carousel2.scrollWidth
-  ) {
-    event.preventDefault();
-  }
-
-  // Apply force multiplier and update scrollLeft
-  carousel2.scrollLeft -= movement * forceMultiplier;
-  startX = event.clientX; // Update startX for next movement calculation
-  
-  // Update velocity based on time and movement
-  const currentTime = event.timeStamp;
-  velocity = (movement / (currentTime - lastTime)) * deceleration;
-  velocity += 0.1; // Add acceleration
-  lastTime = currentTime;
-});
-
-carousel2.addEventListener("mouseup", () => {
-  isDragging = false;
-
-  // Start a loop to gradually reduce velocity and update scrollLeft
-  let timerId = null;
-  const animate = () => {
-    velocity *= deceleration; // Apply deceleration
-    carousel2.scrollLeft -= velocity;
-
-    if (Math.abs(velocity) > 0.1) { 
-      // Continue animation if velocity is above threshold
-      timerId = requestAnimationFrame(animate);
-    } else {
-      cancelAnimationFrame(timerId); // Stop animation
-    }
-  };
-  animate();
-});
-
-// Stop dragging when mouse button is released outside the carousel
-document.addEventListener("mouseup", (event) => {
-  if (!carousel2.contains(event.target)) {
-    isDragging = false;
-  }
+  // Adiciona um evento ao mover o mouse
+  deslizador.addEventListener('mousemove', (e) => {
+    if (!estaPressionado) return; // Se o botão do mouse não estiver pressionado, interrompe a função
+    e.preventDefault(); // Previne o comportamento padrão do evento
+    const x = e.pageX - deslizador.offsetLeft; // Calcula a nova posição do cursor
+    const andar = (x - inicioX) * 2; // Calcula a distância a ser rolada, multiplicando por 2 para velocidade
+    deslizador.scrollLeft = rolarEsquerda - andar; // Ajusta a posição de rolagem do deslizador
+  });
 });

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  -webkit-user-drag: none;
 }
 
 body {
@@ -172,6 +173,8 @@ header .lupa img{
   display: none;
 }
 
+/* Rotação dos filmes: */
+
 .Popular {
   left: 0;
   top: 0;
@@ -183,13 +186,16 @@ header .lupa img{
   align-items: center;
 }
 
-
-
 .categoria-videos {
   display: flex;
-  overflow-x: hidden;
+  overflow-x: auto;
   scroll-behavior: smooth;
+  user-select: none;
   gap: 10px;
+}
+
+.categoria-videos::-webkit-scrollbar { /* Codigo novo que descobri */
+  display: none; /* Esconde a barra de rolagem */
 }
 
 .categoria {
@@ -205,26 +211,6 @@ header .lupa img{
   cursor: pointer;
 }
 
-.arrowright-button{
-  z-index: 3;
-  width: 50px;
-  margin-top: 100px;
-  opacity: 0.3;
-  right: 2px;
-  position: absolute;
-  align-items: center;
-}
-
-.arrowleft-button{
-  z-index: 3;
-  width: 50px;
-  margin-top: 100px;
-  opacity: 0.3;
-  left: 2px;
-  position: absolute;
-  align-items: center;
-}
-
 .categoria-videos img:hover {
   opacity: 1.0;
   border: 3px solid white;
@@ -237,15 +223,16 @@ header .lupa img{
   font-weight: 600;
 }
 
-
-
-
-
 .categoria-videos2 {
   display: flex;
-  overflow-x: hidden;
+  overflow-x: auto;
   scroll-behavior: smooth;
+  user-select: none;
   gap: 10px;
+}
+
+.categoria-videos2::-webkit-scrollbar { /* Codigo novo que descobri */
+  display: none; /* Esconde a barra de rolagem */
 }
 
 .categoria2 {
@@ -261,17 +248,7 @@ header .lupa img{
   cursor: pointer;
 }
 
-.arrowright-button2{
-  z-index: 3;
-  width: 50px;
-  margin-top: 100px;
-  opacity: 0.3;
-  right: 2px;
-  position: absolute;
-  align-items: center;
-}
-
-.arrowleft-button2{
+.arrowleft-button, .arrowleft-button2{
   z-index: 3;
   width: 50px;
   margin-top: 100px;
@@ -279,6 +256,20 @@ header .lupa img{
   left: 2px;
   position: absolute;
   align-items: center;
+  user-select: none;
+  display: none;
+}
+
+.arrowright-button, .arrowright-button2{
+  z-index: 3;
+  width: 50px;
+  margin-top: 100px;
+  opacity: 0.3;
+  right: 2px;
+  position: absolute;
+  align-items: center;
+  user-select: none;
+  display: none;
 }
 
 .categoria-videos2 img:hover {
@@ -291,4 +282,109 @@ header .lupa img{
   color: #fff;
   font-size: 22px;
   font-weight: 600;
+}
+
+/* popup filmes*/
+.background_popup {
+  background-color: rgba(0, 0, 0, 0.647);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+}
+
+.popup {
+  background-color: rgb(15, 15, 15);
+  position: fixed;
+  z-index: 1000;
+  width: 70%;
+  height: 94%;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px 20px 0 0;
+  transform: translate(-50%, -50%);
+  overflow-y: auto; 
+}
+
+.popup::-webkit-scrollbar { /* Codigo novo que descobri */
+  display: none; /* Esconde a barra de rolagem */
+}
+
+.popup video {
+  width: 100%;
+  align-self: center;
+}
+
+#filmName {
+  color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.popup h5 {
+  margin-top: 8px;
+  margin-left: 20px;
+  color: white;
+  font-weight: 400;
+}
+
+.popup span {
+  padding: 0 10px 0 0;
+}
+
+.popup span i {
+  background-color: red;
+  padding: 1px;
+  border-radius: 2px;
+  display: inline-block;
+  font-style: normal;
+}
+
+.popup button {
+  margin-left: 2%;
+  width: 96%;
+  border-radius: 12px;
+  margin-top: 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.popup button img {
+  height: 20px;
+  margin-right: 15px;
+}
+
+.popup button span {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.popup h3 {
+  color: white;
+  margin: 20px 0 0 20px;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.voltar {
+  margin: 8px 0 0 10px;
+  top: 0;
+  left: 0;
+  width: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+@media(max-width: 808px){
+  .arrowleft-button, .arrowleft-button2, .arrowright-button, .arrowright-button2{
+    display: block;
+  }
 }

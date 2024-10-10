@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>CineSpot</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 
   <!-- Google Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +19,7 @@
     }
   </style>
 </head>
+
 <body>
     <header>
 
@@ -69,49 +71,72 @@
         
       </div>
       <video id="myVideo" controls>
-        <source src="Videos/Inter.webm" type="video/mp4">
+        <source src="Videos/Trailers/Filmes/Inter.webm" type="video/mp4">
       </video>
     </div>
   </section>
 
+  <dialog class="background_popup">
+    <div class="popup">
+      <img class="voltar" src="Imagens/seta-voltar.png">
+      <div>
+        <video id="trailer" class="trailer" controls>
+          <source id="videoSource" src="Videos.mp4">
+        </video>
+        <h2 id="filmName">Nome Filme</h2>
+        <h5>
+          <span>2024</span>
+          <span><i>16+</i></span>
+          <span></span>
+        </h5>
+        <button>
+          <img src="Imagens/play.png">
+          <span>Assistir</span>
+        </button>
+        <h3>Baseado na história de Stephen Hawking, o filme expõe como o astrofísico fez descobertas relevantes para o mundo da ciência, inclusive relacionadas ao tempo. Também retrata seu romance com Jane Wilde, uma estudante de Cambridge que viria a se tornar sua esposa. Aos 21 anos de idade, Hawking descobriu que sofria de uma doença motora degenerativa, mas isso não o impediu de se tornar um dos maiores cientistas da atualidade.</h3>
+      </div>
+    </div>
+  </dialog>
 
-  <section class="categoria" id="Popular">
+  <div class="categoria" id="Popular">
     <h2>Popular</h2>
     <img class="arrowright-button" src="Imagens/arrow.png">
     <img class="arrowleft-button" src="Imagens/arrowleft.png">
     <div class="categoria-videos"> 
-        <img src="Imagens/Filmes/ATeoriaDeTudo.png" />
-        <img src="Imagens/Filmes/ForAllMankind.png" />
-        <img src="Imagens/Filmes/PerdidoEmMarte.png" />
-        <img src="Imagens/Filmes/ProjetoAlmanaque.png" />
-        <img src="Imagens/Filmes/OJogoDaImitação.png" />
-        <img src="Imagens/Filmes/JovemSheldon.png" />
-        <img src="Imagens/Filmes/GenioIndomavel.png" />
-        <img src="Imagens/Filmes/GeraçãoDoFuturo.png" />
-        <img src="Imagens/Filmes/BirdBox.png" />
-        <img src="Imagens/Filmes/CobraKai.png" />
+        <img class="ATeoriaDeTudo" src="Imagens/Filmes/ATeoriaDeTudo.png" onclick="changeContent('ATeoriaDeTudo')">
+        <img class="ForAllMankind" src="Imagens/Filmes/ForAllMankind.png" onclick="changeContent('ForAllMankind')">
+        <img class="PerdidoEmMarte" src="Imagens/Filmes/PerdidoEmMarte.png" onclick="changeContent('PerdidoEmMarte')">
+        <img class="ProjetoAlmanaque" src="Imagens/Filmes/ProjetoAlmanaque.png" onclick="changeContent('ProjetoAlmanaque')">
+        <img class="OJogoDaImitação" src="Imagens/Filmes/OJogoDaImitação.png" onclick="changeContent('OJogoDaImitação')">
+        <img class="JovemSheldon" src="Imagens/Filmes/JovemSheldon.png" onclick="changeContent('JovemSheldon')">
+        <img class="GenioIndomavel" src="Imagens/Filmes/GenioIndomavel.png" onclick="changeContent('GenioIndomavel')">
+        <img class="GeraçãoDoFuturo" src="Imagens/Filmes/GeraçãoDoFuturo.png" onclick="changeContent('GeraçãoDoFuturo')">
+        <img class="BirdBox" src="Imagens/Filmes/BirdBox.png" onclick="changeContent('BirdBox')">
+        <img class="CobraKai" src="Imagens/Filmes/CobraKai.png" onclick="changeContent('CobraKai')">
     </div>
-  </section>
+  </div>
 
-  <section class="categoria2" id="Séries">
+  <div class="categoria2" id="Séries">
     <h2>Séries</h2>
     <img class="arrowright-button2" src="Imagens/arrow.png">
     <img class="arrowleft-button2" src="Imagens/arrowleft.png">
     <div class="categoria-videos2"> 
-        <img src="Imagens/Filmes/controlz.png" />
-        <img src="Imagens/Filmes/CobraKai.png" />
-        <img src="Imagens/Filmes/TeenWolf.png" />
-        <img src="Imagens/Filmes/lacasadepapel.png" />
-        <img src="Imagens/Filmes/strangerthings.png" />
-        <img src="Imagens/Filmes/thelastofus.png" />
-        <img src="Imagens/Filmes/roundsix.png" />
-        <img src="Imagens/Filmes/sweettooth.png" />
-        <img src="Imagens/Filmes/lucifer.png" />
-        <img src="Imagens/Filmes/JovemSheldon.png" />
+        <img class="ControlZ" src="Imagens/Filmes/ControlZ.png" onclick="changeContent('ControlZ')">
+        <img class="CobraKai" src="Imagens/Filmes/CobraKai.png" onclick="changeContent('CobraKai')">
+        <img class="TeenWolf" src="Imagens/Filmes/TeenWolf.png" onclick="changeContent('TeenWolf')">
+        <img class="LaCasaDePapel" src="Imagens/Filmes/LaCasaDePapel.png" onclick="changeContent('LaCasaDePapel')">
+        <img class="StrangerThings" src="Imagens/Filmes/StrangerThings.png" onclick="changeContent('StrangerThings')">
+        <img class="TheLastOfUs" src="Imagens/Filmes/TheLastOfUs.png" onclick="changeContent('TheLastOfUs')">
+        <img class="RoundSix" src="Imagens/Filmes/RoundSix.png" onclick="changeContent('RoundSix')">
+        <img class="SweetTooth" src="Imagens/Filmes/SweetTooth.png" onclick="changeContent('SweetTooth')">
+        <img class="Lucifer" src="Imagens/Filmes/Lucifer.png" onclick="changeContent('Lucifer')">
+        <img class="JovemSheldon" src="Imagens/Filmes/JovemSheldon.png" onclick="changeContent('JovemSheldon')">
     </div>
-  </section>
-  <script src="script.js"></script>
-  <script src="scroll.js"></script>
+  </div>
+  <script src="script.js"></script> 
   <script src="skip.js"></script>
+  <script src="scroll.js"></script>
+  <script src="popup.js"></script>
+  <script src="filmes.js"></script>
 </body>
 </html>
