@@ -383,6 +383,10 @@ header .lupa img{
   cursor: pointer;
 }
 
+.noscroll {
+  overflow: hidden;
+}
+
 @media(max-width: 808px){
   .arrowleft-button, .arrowleft-button2, .arrowright-button, .arrowright-button2{
     display: block;
