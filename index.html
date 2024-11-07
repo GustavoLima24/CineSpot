@@ -79,24 +79,23 @@
   <dialog class="background_popup">
     <div class="popup">
       <img class="voltar" src="Imagens/seta-voltar.png">
-      <div>
-        <video id="trailer" class="trailer" controls>
-          <source id="videoSource" src="Videos.mp4">
-        </video>
-        <h2 id="filmName">Nome Filme</h2>
-        <h5>
-          <span>2024</span>
-          <span><i>16+</i></span>
-          <span></span>
-        </h5>
-        <button>
-          <img src="Imagens/play.png">
-          <span>Assistir</span>
-        </button>
-        <h3>Baseado na história de Stephen Hawking, o filme expõe como o astrofísico fez descobertas relevantes para o mundo da ciência, inclusive relacionadas ao tempo. Também retrata seu romance com Jane Wilde, uma estudante de Cambridge que viria a se tornar sua esposa. Aos 21 anos de idade, Hawking descobriu que sofria de uma doença motora degenerativa, mas isso não o impediu de se tornar um dos maiores cientistas da atualidade.</h3>
+      <div class="video-container">
+        <!-- Aqui poderia ser usado iframe ou video, porem usei iframe para não ter que ficar baixando todos os trailers -->
+        <iframe id="videoSrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
+      <h2 id="filmName">Nome Filme</h2>
+      <h5>
+        <span id="ano"></span>
+        <span><i id="idade"></i></span>
+        <span id="temporadas"></span>
+      </h5>
+      <button>
+        <img src="Imagens/play.png">
+        <span>Assistir</span>
+      </button>
+      <h3 id="sinopse">Sinopse do filme</h3>
     </div>
-  </dialog>
+  </dialog>  
 
   <div class="categoria" id="Popular">
     <h2>Popular</h2>
@@ -138,5 +137,7 @@
   <script src="scroll.js"></script>
   <script src="popup.js"></script>
   <script src="filmes.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="ocultar.js"></script>
 </body>
 </html>
