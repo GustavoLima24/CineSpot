@@ -80,7 +80,7 @@ const contentData = {
       sinopse: 'Lucifer Morningstar (Tom Ellis), o famigerado Senhor do Inferno, se cansa da vida demoníaca que leva no subterrâneo e abandona seu trono para tirar férias em Los Angeles. Lá, ele abre uma casa noturna chamada "Lux" e passa a desfrutar de tudo o que mais gosta: vinho, mulheres e excessos. Sua nova rotina se complica quando uma estrela do pop é brutalmente assassinada diante de seus olhos. Pela primeira vez em mais de 10 milhões de anos, Lucifer sente despertar em seu interior um desejo de justiça e resolve punir os responsáveis pelo crime. Ele conhece, então, a policial Chloe Decker (Lauren German) e se junta a ela para desvendar o caso. Mas seus poderes de persuasão se mostram tão úteis que ele se torna uma espécie de consultor em outras investigações de homicídio, formando uma dupla improvável com Chloe. Ao longo dos episódios, os dois desvendam todo tipo de caso sobrenatural.'
   },
   OJogoDaImitação: {
-      videoSrc: 'Videos/Trailers/Filmes/OJogoDaImitação.mp4',
+      videoSrc: 'https://www.youtube-nocookie.com/embed/GxokSkSqF5E?si=cRt1L0PAifHEhgmF',
       texto: 'O Jogo Da Imitação',
       ano: '2014',
       idade: '12+',
@@ -88,7 +88,7 @@ const contentData = {
       sinopse: 'Durante a Segunda Guerra Mundial, o governo britânico monta uma equipe que tem por objetivo quebrar o Enigma, o famoso código que os alemães usam para enviar mensagens aos submarinos. Um de seus integrantes é Alan Turing (Benedict Cumberbatch), um matemático de 27 anos estritamente lógico e focado no trabalho, que tem problemas de relacionamento com praticamente todos à sua volta. Não demora muito para que Turing, apesar de sua intransigência, lidere a equipe. Seu grande projeto é construir uma máquina que permita analisar todas as possibilidades de codificação do Enigma em apenas 18 horas, de forma que os ingleses conheçam as ordens enviadas antes que elas sejam executadas. Entretanto, para que o projeto dê certo, Turing terá que aprender a trabalhar em equipe e tem Joan Clarke (Keira Knightley) sua grande incentivadora.'
   },
   PerdidoEmMarte: {
-      videoSrc: 'Videos/Trailers/Filmes/PerdidoEmMarte.mp4',
+      videoSrc: 'https://www.youtube-nocookie.com/embed/tCAgtzMUCaA?si=djP6fx7X0aO5We9l',
       texto: 'Perdido Em Marte',
       ano: '2015',
       idade: '12+',
@@ -96,7 +96,7 @@ const contentData = {
       sinopse: 'O astronauta Mark Watney (Matt Damon) é enviado a uma missão em Marte. Após uma severa tempestade ele é dado como morto, abandonado pelos colegas e acorda sozinho no misterioso planeta com escassos suprimentos, sem saber como reencontrar os companheiros ou retornar à Terra.'
   },
   ProjetoAlmanaque: {
-      videoSrc: 'Videos/Trailers/Filmes/ProjetoAlmanaque.mp4',
+      videoSrc: 'https://www.youtube-nocookie.com/embed/MmnLVu43z6s?si=faJc4_y9SEc-ylb8',
       texto: 'Projeto Almanaque',
       ano: '2015',
       idade: '14+',
@@ -104,7 +104,7 @@ const contentData = {
       sinopse: 'Um grupo de jovens acaba descobrindo instruções secretas para montar uma máquina do tempo, e decidem construir o aparelho. No entanto, os efeitos são muito diferentes do que esperavam.'
   },
   RoundSix: {
-      videoSrc: 'Videos/Trailers/Filmes/RoundSix.mp4',
+      videoSrc: 'https://www.youtube-nocookie.com/embed/7bOphbY6MI4?si=Kj1u7um8PtsmBxzm',
       texto: 'Round Six',
       ano: '2021',
       idade: '16+',
@@ -112,7 +112,7 @@ const contentData = {
       sinopse: 'Round 6, série sul-coreana original da Netflix, acompanha um grupo de pessoas desesperadas por dinheiro que recebem um misterioso convite para participar de jogos competitivos inspirados em brincadeiras infantis. Sem saber qualquer coisa sobre o convite, centenas de pessoas comparecem ao local para participar do evento. Ao final do jogo, o vencedor poderá levar para casa um prêmio milionário e resolver todas as suas dívidas. Porém, o que eles não sabem é que os perdedores não saírão vivos desse jogo. Agora os competidores precisarão lutar para sobreviver a essa macabra disputa.'
   },
   StrangerThings: {
-      videoSrc: 'Videos/Trailers/Filmes/StrangerThings.mp4',
+      videoSrc: 'https://www.youtube-nocookie.com/embed/mnd7sFt5c3A?si=P5Jj8rJS2bZyxh_z',
       texto: 'Stranger Things',
       ano: '2016',
       idade: '14+',
@@ -120,7 +120,7 @@ const contentData = {
       sinopse: 'Situada no início dos anos 1980, Stranger Things se passa na cidade rural fictícia de Hawkins, Indiana. Como fachada, o laboratório da região realizava experimentos científicos para o Departamento de Energia Americano, quando na realidade, os pesquisadores ali investiram em experimentos com o paranormal e o sobrenatural, incluindo o uso de cobaias humanas. Não intencionalmente, eles criaram um portal para uma dimensão alternativa conhecida como Mundo Invertido, o que iria impactar a vida dos residentes da pequena cidade. Em 1983, quando Will Byers (Noah Schnapp), um menino de 12 anos, desaparece misteriosamente, o xerife Jim Hopper (David Harbour) inicia uma operação para encontrá-lo. Enquanto isso, Mike (Finn Wolfhard), Dustin (Gaten Matarazzo) e Lucas (Caleb McLaughlin), melhores amigos de Will, decidem procurá-lo por conta própria. Mas as investigações acabam levando o grupo em direção aos experimentos secretos do governo e a Eleven (Millie Bobby Brown), uma peculiar menina perdida na floresta. Assim como as crianças, a mãe Joyce Byers (Winona Ryder) está determinada e fará o impossível para rever o filho.'
   },
   SweetTooth: {
-      videoSrc: 'Videos/Trailers/Filmes/SweetTooth.mp4',
+      videoSrc: 'https://www.youtube-nocookie.com/embed/0mz_ImwSOpM?si=VSJyD8ttAVHKOdDN',
       texto: 'Sweet Tooth',
       ano: '2021',
       idade: '12+',
@@ -128,7 +128,7 @@ const contentData = {
       sinopse: 'Produzida por Robert Downey Jr. e baseada na série homônima de HQs da Vertigo (selo da DC Comics), Sweet Tooth conta a história de Gus (Christian Convery), um menino-cervo que vive em um futuro pós-apocalíptico e faz parte de uma nova raça híbrida de humanos e animais. Isso é resultado de uma série de mutações que aconteceram depois do "Grande Colapso", quando um misterioso e mortal vírus espalhou o caos pelo mundo. Devido à pandemia, Gus cresceu isolado por uma década, até que decide deixar sua casa na floresta para explorar o que restou lá fora e encontrar sua mãe desaparecida. Mas, contra todas as probabilidades, ele se torna amigo do ex-jogador de futebol Tommy Jepperd (Nonso Anozie), agora viajante solitário e um dos sobreviventes da catástrofe. Juntos, eles embarcam em uma aventura extraordinária por um planeta devastado – e perigoso. Ao descobrir que existem outros como ele, Gus acaba ingressando em uma família de híbridos enquanto busca por respostas acerca dessa nova realidade e o mistério por trás da origem de sua espécie.'
   },
   TeenWolf: {
-      videoSrc: 'Videos/Trailers/Filmes/TeenWolf.mp4',
+      videoSrc: 'https://www.youtube-nocookie.com/embed/BmHM5eUp9w4?si=uWzM5XRirK6AaxAv',
       texto: 'Teen Wolf',
       ano: '2011',
       idade: '14+',
@@ -136,7 +136,7 @@ const contentData = {
       sinopse: "O jovem Scott McCall (Tyler Posey) é estudante do ensino médio no colégio fictício de Beacon Hills e vive como um garoto comum, passando por problemas naturais da juventude. Ao ir caminhar na floresta em busca de um suposto corpo morto, o menino é mordido por um lobisomem. Nos dias seguintes, Scott logo nota as mudanças em seu corpo e nos seus sentidos, concluindo que tornou-se um lobisomem. Ele se esforça para esconder de seus colegas a nova característica, com exceção do melhor amigo Stiles Stilinski (Dylan O'Brien), da namorada Allison Argent (Crystal Reed) e do companheiro Derek Hale (Tyler Hoechlin), com quem conta para enfrentar a nova fase."
   },
   TheLastOfUs: {
-      videoSrc: 'Videos/Trailers/Filmes/TeenWolf.mp4',
+      videoSrc: 'https://www.youtube-nocookie.com/embed/lW5kiEUVlpo?si=t1-p6EXmvKRZ9jVj',
       texto: 'The Last Of Us',
       ano: '2023',
       idade: '16+',
