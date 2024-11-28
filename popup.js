@@ -2,6 +2,7 @@ const voltar = document.querySelector('.voltar');
 const popup = document.querySelector('.background_popup');
 const images = document.querySelectorAll('.categoria-videos img, .categoria-videos2 img');
 const iframe = document.getElementById('videoSrc');
+const watchButton = document.querySelector('button');  // Seleciona o botão "Assistir"
 
 // Adiciona evento de clique no botão de voltar
 voltar.addEventListener('click', back);
@@ -22,3 +23,8 @@ function back() {
   popup.style.display = 'none';
   document.body.classList.remove('noscroll');
 }
+
+// Adiciona evento de clique no botão "Assistir" para abrir o vídeo em tela cheia
+watchButton.addEventListener('click', () => {
+  iframe.requestFullscreen();
+});
