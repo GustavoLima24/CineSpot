@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    -webkit-user-drag: none;
+  }
+  
+  body {
+    background-color: rgb(12, 12, 12);
+    margin: 0;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .interface{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: black;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo img{
+    max-width: 140px;
+  }
+  
+  header .menu-desktop nav ul{
+    list-style-type: none;
+  }
+  
+  header .menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+  }
+  
+  header .menu-desktop nav ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  header .lupa img{
+    margin: 10px 20px 0 0;
+    max-width: 30px;
+    cursor: pointer;
+  }
+
+  .agradecimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 40px 20px;
+    color: white;
+    min-height: 100vh;
+  }
+
+  .agradecimento h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  #linha {
+    padding-top: 20px;
+  }
+
+  .agradecimento p {
+    padding-top: 3px;
+    text-align: center;
+    justify-self: center;
+    color: white;
+    font-weight: 300;
+    max-width: 80%;
+    line-height: 24px;
+    font-size: 12px;
+  }
+
+  .agradecimento p i {
+    font-weight: bold;
+  }
+
+  .agradecimento iframe {
+    margin-top: 20px;
+    width: 70%;
+    height: 70vh;
+    border: none;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    gap: 300px;
+    padding: 50px 20px;
+    background-color: #111111;
+  }
+  
+  .ideia {
+    flex: 1;
+  }
+  
+  .ideia h2 {
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .ideia p {
+    color: white;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .imagem {
+    padding-right: 50px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagem img {
+    height: 100%;
+    width: auto;
+    max-width: 300px;
+  }
+  
+  .quemeusou {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #111111;
+    color: white;
+  }
+  
+  .rosto {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .rosto img {
+    height: 100%;
+    width: auto;
+    max-width: 300px;
+    object-fit: contain;
+  }
+  
+  .biografia {
+    flex: 1;
+    color: white;
+  }
+  
+  .biografia h2 {
+    margin-bottom: 16px;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .biografia p {
+    line-height: 1.6;
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  
