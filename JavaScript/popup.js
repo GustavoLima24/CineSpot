@@ -1,21 +1,48 @@
-const voltar = document.querySelector('.voltar');
+const botaoVoltar = document.querySelector('.voltar');
 const popup = document.querySelector('.background_popup');
-const images = document.querySelectorAll('.categoria-videos img, .categoria-videos2 img');
+const imagens = document.querySelectorAll('.categoria-videos img, .categoria-videos2 img');
 const iframe = document.getElementById('videoSrc');
-const watchButton = document.querySelector('button');  // Seleciona o botão "Assistir"
+const botaoAssistir = document.querySelector('button');  // Seleciona o botão "Assistir"
 
-// Adiciona evento de clique no botão de voltar
-voltar.addEventListener('click', back);
+let temporizadorSegurando;
+let segurando = false;
+let movendo = false;
 
-// Adiciona evento de clique nas imagens para abrir o popup
-images.forEach(image => {
-  image.addEventListener('click', () => {
-    document.body.classList.add('noscroll');
-    popup.style.display = 'block';
+botaoVoltar.addEventListener('click', voltar);
+
+imagens.forEach(imagem => {
+  imagem.addEventListener('mousedown', () => {
+    segurando = false;
+    movendo = false;
+    temporizadorSegurando = setTimeout(() => {
+      segurando = true;
+    }, 300);
+  });
+
+  imagem.addEventListener('mousemove', () => {
+    if (temporizadorSegurando) {
+      movendo = true;
+    }
+  });
+
+  imagem.addEventListener('mouseup', () => {
+    clearTimeout(temporizadorSegurando);
+    if (!segurando && !movendo) {
+      document.body.classList.add('noscroll');
+      popup.style.display = 'block';
+    }
+    segurando = false;
+    movendo = false;
+  });
+
+  imagem.addEventListener('mouseleave', () => {
+    clearTimeout(temporizadorSegurando);
+    segurando = false;
+    movendo = false;
   });
 });
 
-function back() {
+function voltar() {
   // Pausa o vídeo ao redefinir a src do iframe
   const iframeSrc = iframe.src;
   iframe.src = iframeSrc;
@@ -25,6 +52,6 @@ function back() {
 }
 
 // Adiciona evento de clique no botão "Assistir" para abrir o vídeo em tela cheia
-watchButton.addEventListener('click', () => {
+botaoAssistir.addEventListener('click', () => {
   iframe.requestFullscreen();
 });

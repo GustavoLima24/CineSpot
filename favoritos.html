@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CineSpot</title>
-  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/favoritos.css">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
   <!-- Google Fonts-->
@@ -48,35 +48,6 @@
     
     </header>
 
-  <section class="chamada">
-    <div id="video-container">
-      <img id="thumbnail" src="Imagens/interestelar.png" alt="Thumbnail">
-        <img id="close" src="Imagens/Fechar.png" alt="Close">
-
-      <div class="BannerPrincipal">
-        <img id="background" src="Imagens/logo_interestelar.png" alt="interestelar">
-        <h4>
-          <span>2014</span>
-          <span><i>10+</i></span>
-          <span>2h 49min</span>
-          <span>Ficção</span>
-        </h4>
-        <p>
-          Após ver a Terra consumindo boa parte de suas reservas naturais, um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie.
-        </p>
-
-        <div class="buttons">
-          <a href="#" id="playButton"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
-          <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Meus Favoritos</a>
-        </div>
-        
-      </div>
-      <video id="myVideo" controls>
-        <source src="Videos/Trailers/Filmes/Inter.webm" type="video/mp4">
-      </video>
-    </div>
-  </section>
-
   <dialog class="background_popup">
     <div class="popup">
       <img class="voltar" src="Imagens/seta-voltar.png">
@@ -96,49 +67,17 @@
       </button>
       <h3 id="sinopse">Sinopse do filme</h3>
     </div>
-  </dialog>  
+  </dialog> 
 
-  <div class="categoria" id="Popular">
-    <h2>Popular</h2>
-    <img class="arrowright-button" src="Imagens/arrow.png">
-    <img class="arrowleft-button" src="Imagens/arrowleft.png">
-    <div class="categoria-videos"> 
-        <img class="ATeoriaDeTudo" src="Imagens/Filmes/ATeoriaDeTudo.png" onclick="changeContent('ATeoriaDeTudo')">
-        <img class="ForAllMankind" src="Imagens/Filmes/ForAllMankind.png" onclick="changeContent('ForAllMankind')">
-        <img class="PerdidoEmMarte" src="Imagens/Filmes/PerdidoEmMarte.png" onclick="changeContent('PerdidoEmMarte')">
-        <img class="ProjetoAlmanaque" src="Imagens/Filmes/ProjetoAlmanaque.png" onclick="changeContent('ProjetoAlmanaque')">
-        <img class="OJogoDaImitação" src="Imagens/Filmes/OJogoDaImitação.png" onclick="changeContent('OJogoDaImitação')">
-        <img class="JovemSheldon" src="Imagens/Filmes/JovemSheldon.png" onclick="changeContent('JovemSheldon')">
-        <img class="GenioIndomavel" src="Imagens/Filmes/GenioIndomavel.png" onclick="changeContent('GenioIndomavel')">
-        <img class="GeraçãoDoFuturo" src="Imagens/Filmes/GeraçãoDoFuturo.png" onclick="changeContent('GeraçãoDoFuturo')">
-        <img class="BirdBox" src="Imagens/Filmes/BirdBox.png" onclick="changeContent('BirdBox')">
-        <img class="CobraKai" src="Imagens/Filmes/CobraKai.png" onclick="changeContent('CobraKai')">
-    </div>
+  <div class="favoritos">
+    <h1>Favoritos em breve!</h1>
   </div>
-
-  <div class="categoria2" id="Séries">
-    <h2>Séries</h2>
-    <img class="arrowright-button2" src="Imagens/arrow.png">
-    <img class="arrowleft-button2" src="Imagens/arrowleft.png">
-    <div class="categoria-videos2"> 
-        <img class="ControlZ" src="Imagens/Filmes/ControlZ.png" onclick="changeContent('ControlZ')">
-        <img class="CobraKai" src="Imagens/Filmes/CobraKai.png" onclick="changeContent('CobraKai')">
-        <img class="TeenWolf" src="Imagens/Filmes/TeenWolf.png" onclick="changeContent('TeenWolf')">
-        <img class="LaCasaDePapel" src="Imagens/Filmes/LaCasaDePapel.png" onclick="changeContent('LaCasaDePapel')">
-        <img class="StrangerThings" src="Imagens/Filmes/StrangerThings.png" onclick="changeContent('StrangerThings')">
-        <img class="TheLastOfUs" src="Imagens/Filmes/TheLastOfUs.png" onclick="changeContent('TheLastOfUs')">
-        <img class="RoundSix" src="Imagens/Filmes/RoundSix.png" onclick="changeContent('RoundSix')">
-        <img class="SweetTooth" src="Imagens/Filmes/SweetTooth.png" onclick="changeContent('SweetTooth')">
-        <img class="Lucifer" src="Imagens/Filmes/Lucifer.png" onclick="changeContent('Lucifer')">
-        <img class="JovemSheldon" src="Imagens/Filmes/JovemSheldon.png" onclick="changeContent('JovemSheldon')">
-    </div>
-  </div>
+  
   <script src="script.js"></script> 
   <script src="skip.js"></script>
   <script src="scroll.js"></script>
   <script src="popup.js"></script>
   <script src="filmes.js"></script>
   <script src="https://www.youtube.com/iframe_api"></script>
-  <script src="ocultar.js"></script>
 </body>
 </html>
