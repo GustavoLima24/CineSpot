@@ -143,9 +143,6 @@ const contentData = {
         temporadas: '1 Temporadas',
         sinopse: 'Baseada no popular jogo de videogame, a série segue Joel e Ellie enquanto navegam por um mundo pós-apocalíptico repleto de perigos para encontrar uma possível cura para uma pandemia devastadora.'
     },
-
-
-
     VingadoresUltimato: {
         videoSrc: 'https://www.youtube-nocookie.com/embed/PgrmbRID0eY?si=2QFSjbvABzkqsfE7',
         texto: 'Vingadores: Ultimato',
