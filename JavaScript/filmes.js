@@ -147,7 +147,7 @@ const contentData = {
 
 
     VingadoresUltimato: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/hA6hldpSTF8',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/PgrmbRID0eY?si=2QFSjbvABzkqsfE7',
         texto: 'Vingadores: Ultimato',
         ano: '2019',
         idade: '12+',
@@ -155,7 +155,7 @@ const contentData = {
         sinopse: 'Após os eventos devastadores de "Vingadores: Guerra Infinita", os Vingadores restantes lutam para reverter as ações de Thanos e restaurar a ordem no universo.'
     },
     AProcuraDaFelicidade: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/N9jmuE4dy5Q',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/RO6knM2cUYQ?si=7-kC6iztwCoDk6Aa',
         texto: 'À Procura da Felicidade',
         ano: '2006',
         idade: '12+',
@@ -163,7 +163,7 @@ const contentData = {
         sinopse: 'Baseado em uma história real, o filme segue Chris Gardner, um vendedor que enfrenta desafios extremos enquanto luta para criar seu filho e construir uma vida melhor.'
     },
     OsSimpsons: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/CybOiVPI-8A',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/7UPVGlMjPLw?si=p-Ta4mJBq7hPvShO',
         texto: 'Os Simpsons: O Filme',
         ano: '2007',
         idade: '10+',
@@ -171,7 +171,7 @@ const contentData = {
         sinopse: 'Homer deve salvar o mundo de uma catástrofe que ele mesmo causou, enquanto tenta consertar seus problemas familiares.'
     },
     Interestelar: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/zSWdZVtXT7E',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/yMnauR8K2Zc?si=vCVR31JBDAE91b2S',
         texto: 'Interestelar',
         ano: '2014',
         idade: '12+',
@@ -179,7 +179,7 @@ const contentData = {
         sinopse: 'Um grupo de exploradores realiza uma viagem espacial através de um buraco de minhoca em busca de um novo lar para a humanidade.'
     },
     AOrdem: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/fbH4yigb0mo',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/4WLtsPyvKmA?si=NF-w1gH_0v_pj_is',
         texto: 'A Ordem (série)',
         ano: '2019',
         idade: '16+',
@@ -187,7 +187,7 @@ const contentData = {
         sinopse: 'Um estudante universitário se junta a uma sociedade secreta e é empurrado para um mundo de magia e monstros.'
     },
     OAtirador: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/qHL1eSMePrw',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/5ELjX0ElcBg?si=yuD0y2xV9I0uSzDK',
         texto: 'O Atirador (série)',
         ano: '2016',
         idade: '16+',
@@ -195,7 +195,7 @@ const contentData = {
         sinopse: 'Um atirador de elite veterano dos fuzileiros navais retorna à ação para impedir um complô para matar o presidente, mas acaba se tornando o principal suspeito.'
     },
     TropaDeElite: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/u2I4nKHshJQ',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/A6W-nNPl1T8?si=Nwtb-c2l7I1vNTbD',
         texto: 'Tropa de Elite',
         ano: '2007',
         idade: '16+',
@@ -203,7 +203,7 @@ const contentData = {
         sinopse: 'O Capitão Nascimento, do BOPE, precisa encontrar um substituto enquanto enfrenta problemas pessoais e profissionais na polícia do Rio de Janeiro.'
     },
     Kingsman: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/kl8F-8tR8to',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/yzMtm3XqsLc?si=A0j-ya-Ae4RPAVdP',
         texto: 'Kingsman: Serviço Secreto',
         ano: '2014',
         idade: '16+',
@@ -211,7 +211,7 @@ const contentData = {
         sinopse: 'Um jovem delinquente é recrutado por uma organização de espiões de elite para impedir um gênio do mal que quer dizimar a população mundial.'
     },
     GigantesDeAço: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/afZQPCqlTAY',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/LwvkjZCMAwQ?si=3MPq0ZzTs7rCONxp',
         texto: 'Gigantes de Aço',
         ano: '2011',
         idade: '12+',
@@ -219,7 +219,7 @@ const contentData = {
         sinopse: 'Em um futuro próximo, lutadores robôs substituíram os humanos nos ringues de boxe. Um ex-lutador e seu filho treinam um robô campeão.'
     },
     EsquadrãoSuicida: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/CmRih_VtVAs',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/UkFJ90ef4_I?si=Bxk1QJA5WhRQSQ2j',
         texto: 'Esquadrão Suicida',
         ano: '2016',
         idade: '14+',
@@ -227,7 +227,7 @@ const contentData = {
         sinopse: 'Um grupo de vilões presos é recrutado pelo governo para realizar missões perigosas em troca de uma redução de pena.'
     },
     KaratêKid: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/LiYXuq3bMlM',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/CTzw0QV8R3g?si=8Kv_ALW2JO7-Mgk4',
         texto: 'Karatê Kid',
         ano: '2010',
         idade: '10+',
@@ -235,7 +235,7 @@ const contentData = {
         sinopse: 'Um garoto se muda para a China e aprende kung fu com um mestre enquanto enfrenta os desafios de sua nova vida.'
     },
     FreeGuy: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/X2m-08cOAbc',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/iLcwgsQ0V28?si=EwiNdd6dfbOHhlfy',
         texto: 'Free Guy: Assumindo o Controle',
         ano: '2021',
         idade: '12+',
@@ -243,7 +243,7 @@ const contentData = {
         sinopse: 'Um caixa de banco descobre que é um personagem em um jogo de vídeo e decide se tornar o herói de sua própria história.'
     },
     DoutorEstranho: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/rE1plkkQ7PA',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/oaLko5zhjgY?si=aq_zJt1UDV0fG6J1',
         texto: 'Doutor Estranho',
         ano: '2016',
         idade: '12+',
@@ -251,7 +251,7 @@ const contentData = {
         sinopse: 'Um neurocirurgião busca cura para suas mãos feridas e descobre o mundo da magia e dimensões alternativas.'
     },
     VovóZona: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/wZFdAnKo4Rs',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/M42n6WlAMkw?si=HxDeMmk-AcBmLZ4Z',
         texto: 'Vovó... Zona',
         ano: '2000',
         idade: '12+',
@@ -259,7 +259,7 @@ const contentData = {
         sinopse: 'Um agente do FBI se disfarça de uma idosa robusta para capturar um fugitivo.'
     },
     PercyJackson: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/xko1Mx5w4tg',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/X7E_8PQER_U?si=pLO1K-DoKtrgst3y',
         texto: 'Percy Jackson e o Ladrão de Raios',
         ano: '2010',
         idade: '10+',
@@ -267,7 +267,7 @@ const contentData = {
         sinopse: 'Um jovem descobre ser filho de um deus grego e embarca em uma jornada para encontrar o raio de Zeus e impedir uma guerra entre os deuses.'
     },
     AliceInBorderland: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/MaRYk3QzPUk',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/MMRoZeo90EQ?si=nzdnBeG6VDzQzqWO',
         texto: 'Alice in Borderland',
         ano: '2020',
         idade: '16+',
@@ -275,7 +275,7 @@ const contentData = {
         sinopse: 'Um gamer e seus dois amigos se encontram em uma versão paralela de Tóquio, onde devem competir em jogos mortais para sobreviver.'
     },
     MrRobot: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/xIBiJ_SzJTA',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/8qZYW_1hj2g?si=lLw_UUsx02nfUel9',
         texto: 'Mr. Robot',
         ano: '2015',
         idade: '16+',
@@ -283,7 +283,7 @@ const contentData = {
         sinopse: 'Um jovem programador, Elliot, trabalha como engenheiro de segurança cibernética durante o dia e como hacker vigilante à noite, até ser recrutado por um misterioso líder de um grupo de hackers.'
     },
     TruqueDeMestre: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/4OtM9j2lcUA',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/V22dkbR7qhE?si=ODGXAy3iIWIO0a9z',
         texto: 'Truque de Mestre',
         ano: '2013',
         idade: '12+',
@@ -291,7 +291,7 @@ const contentData = {
         sinopse: 'Um grupo de ilusionistas executa assaltos durante seus shows e distribui o dinheiro roubado ao público enquanto são perseguidos pelo FBI.'
     },
     AllOfUsAreDead: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/I5t-ovGt60g',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/xoaj6GIppOk?si=RZZFroISKQdvlf6O',
         texto: 'All Of Us Are Dead',
         ano: '2022',
         idade: '16+',
@@ -299,7 +299,7 @@ const contentData = {
         sinopse: 'Um grupo de estudantes do ensino médio fica preso na escola durante um surto de zumbis e deve lutar para sobreviver.'
     },
     Interceptor: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/NPrZ5N6pjlw',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/6P7AyiI20PU?si=6Iou6UXq9xI0y8M5',
         texto: 'Interceptor',
         ano: '2022',
         idade: '16+',
@@ -307,7 +307,7 @@ const contentData = {
         sinopse: 'Uma tenente do Exército deve usar suas habilidades para salvar a humanidade de um ataque nuclear iminente.'
     },
     Berlim: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/_kdk2mUFEG8',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/2j5mZbhsSdM?si=YGcPiv7KOAUSwvJG',
         texto: 'Berlim',
         ano: '2023',
         idade: '16+',
@@ -315,7 +315,7 @@ const contentData = {
         sinopse: 'Spin-off de "La Casa de Papel", a série se concentra no personagem Berlim e suas aventuras antes do assalto à Casa da Moeda da Espanha.'
     },
     OTelefonePreto: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/hL_gLSmgkNU',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/dCAbPQnFAU4?si=BC2-V9DKUP-wllST',
         texto: 'O Telefone Preto',
         ano: '2021',
         idade: '16+',
@@ -323,7 +323,7 @@ const contentData = {
         sinopse: 'Um garoto sequestrado descobre que pode se comunicar com as vítimas anteriores de seu captor através de um telefone desconectado.'
     },
     LaBrea: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/hxHGmNsHGhU',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/l4JQPNETUms?si=_j8oKbaU5JrwAqwn',
         texto: 'La Brea',
         ano: '2021',
         idade: '12+',
@@ -331,7 +331,7 @@ const contentData = {
         sinopse: 'Quando um enorme buraco se abre em Los Angeles, várias pessoas são transportadas para um mundo pré-histórico, e suas famílias tentam resgatá-las.'
     },
     TruqueDeMestre2: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/JtNMm-pR5Jw',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/8Q6jGcM2Kos?si=WBPbKeyEs8XkbZca',
         texto: 'Truque de Mestre: O 2º Ato',
         ano: '2016',
         idade: '12+',
@@ -339,7 +339,7 @@ const contentData = {
         sinopse: 'Os Quatro Cavaleiros ressurgem para um novo espetáculo, desta vez tentando desmascarar um magnata da tecnologia.'
     },
     TheRain: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/bG2p9tZNIpI',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/jRIXP5ynwWI?si=Wdjjo8Xhx4iMeyPs',
         texto: 'The Rain',
         ano: '2018',
         idade: '16+',
@@ -347,7 +347,7 @@ const contentData = {
         sinopse: 'Após um vírus devastador transmitido pela chuva acabar com a maior parte da população, dois irmãos lutam para sobreviver e encontrar respostas.'
     },
     NoiteAdentro: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/A6NO1O2vcxQ',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/au1ugmT6IkU?si=9aSD_pbTN1fmCtz5',
         texto: 'Noite Adentro',
         ano: '2020',
         idade: '16+',
@@ -355,7 +355,7 @@ const contentData = {
         sinopse: 'Um voo noturno deve evitar a luz do dia, que está causando a morte de todos os seres vivos ao redor do mundo.'
     },
     Tomorrowland: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/H69GrU8HwX4',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/eCGJP13aOoU?si=23AAS0fm0nphhWIo',
         texto: 'Tomorrowland',
         ano: '2015',
         idade: '10+',
@@ -363,7 +363,7 @@ const contentData = {
         sinopse: 'Uma adolescente curiosa e um ex-gênio se unem para descobrir os segredos de um lugar enigmático em algum ponto do tempo e espaço.'
     },
     CriandoDion: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/Z6koPaImHzY',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/VHK8xvn2x9c?si=hQuX_njLrDJDq5Kr',
         texto: 'Criando Dion',
         ano: '2019',
         idade: '10+',
@@ -371,7 +371,7 @@ const contentData = {
         sinopse: 'Uma mãe descobre que seu filho tem habilidades superpoderosas e deve protegê-lo de pessoas que querem explorá-lo.'
     },
     OShowDeTruman: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/c3gIOTQKwv4',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/s5Jc-7MYGhY?si=ag8b3nM9Mo3OwJ9n',
         texto: 'O Show de Truman',
         ano: '1998',
         idade: '12+',
@@ -379,7 +379,7 @@ const contentData = {
         sinopse: 'Um homem descobre que sua vida inteira é um reality show transmitido ao vivo e decide buscar a verdade sobre sua existência.'
     },
     SpiderHead: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/RFXgzfH3XTo',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/_WzqlvsQqvw?si=qIjCGB1CpP2iKY0Y',
         texto: 'Spiderhead',
         ano: '2022',
         idade: '16+',
@@ -387,7 +387,7 @@ const contentData = {
         sinopse: 'Presos voluntários em uma instalação de pesquisa começam a questionar a natureza dos experimentos realizados neles.'
     },
     MentesSombrias: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/DN_kxbOoxcc',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/fir63ujRQxQ?si=GPnPvR7abU2CK-bb',
         texto: 'Mentes Sombrias',
         ano: '2018',
         idade: '12+',
@@ -395,7 +395,7 @@ const contentData = {
         sinopse: 'Adolescentes com poderes misteriosos são internados pelo governo. Quando uma jovem escapa, ela se junta a outros adolescentes em fuga para formar um grupo de resistência.'
     },
     Lucy: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/MVt32qoyhi0',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/1oJR6Di0Eck?si=NItjk_DED6GfNEVf',
         texto: 'Lucy',
         ano: '2014',
         idade: '16+',
@@ -403,7 +403,7 @@ const contentData = {
         sinopse: 'Uma jovem, forçada a trabalhar como mula de drogas, ganha habilidades extraordinárias ao absorver uma substância que aumenta sua capacidade cerebral.'
     },
     Armageddon: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/kg_jH47u480',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/Uuv3ZXy4Cok?si=wyCBkalYYaeYK6iH',
         texto: 'Armageddon',
         ano: '1998',
         idade: '12+',
@@ -411,7 +411,7 @@ const contentData = {
         sinopse: 'Um grupo de perfuradores de petróleo é enviado ao espaço para destruir um asteroide gigante que ameaça extinguir a vida na Terra.'
     },
     Robocop: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/zbCbwP6ibR4',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/cJbzKTHTf5E?si=Vfcfu9PVynUz4Hxh',
         texto: 'Robocop',
         ano: '1987',
         idade: '16+',
@@ -419,15 +419,15 @@ const contentData = {
         sinopse: 'Um policial gravemente ferido e deixado à beira da morte é transformado em um ciborgue que luta contra o crime.'
     },
     DeathNote: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/kl5dND_nz38',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/BHUPZpSKkhk?si=fnL-FRYznooHHd7q',
         texto: 'Death Note',
-        ano: '2017',
+        ano: '2016',
         idade: '16+',
         temporadas: '',
-        sinopse: 'Um estudante do ensino médio encontra um caderno que permite matar qualquer pessoa cujo nome seja escrito nele e decide usá-lo para livrar o mundo dos criminosos.'
+        sinopse: 'Um estudante do ensino médio, Light Yagami, encontra um caderno sobrenatural que permite matar qualquer pessoa cujo nome seja escrito nele. Decidido a livrar o mundo do mal, Light assume o nome de Kira e é caçado por um brilhante detetive conhecido apenas como L.'
     },
     SuperChoque: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/fymTwzLehDw',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/MiPSeeG0Rwg?si=2FAlC0YEgjgEcTOc',
         texto: 'Super Choque',
         ano: '2000',
         idade: '10+',
@@ -435,15 +435,15 @@ const contentData = {
         sinopse: 'Um adolescente ganha habilidades eletromagnéticas e luta contra o crime enquanto enfrenta os desafios da vida escolar.'
     },
     BigHero: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/z3biFxZIJOQ',
-        texto: 'Big Hero 6',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/Zx3xEc6-mU4?si=cgUCOA09eRsX4Jrj',
+        texto: 'Operação Big Hero',
         ano: '2014',
         idade: '10+',
         temporadas: '',
         sinopse: 'Um jovem prodígio da robótica e seus amigos formam um grupo de super-heróis para enfrentar uma ameaça inesperada.'
     },
     UpAltasAventuras: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/HgNAGZCEbiM',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/S8GVQ0Sihxw?si=c-nBHod32slz5mLU',
         texto: 'Up: Altas Aventuras',
         ano: '2009',
         idade: '10+',
@@ -451,7 +451,7 @@ const contentData = {
         sinopse: 'Um idoso viúvo decide realizar o sonho de sua falecida esposa de explorar a América do Sul, amarrando milhares de balões à sua casa e voando até lá.'
     },
     CacadoresDeTrolls: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/5X3ts09yTkk',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/bXtN3JSgn0s?si=Zse0UaXQKyDOjHFQ',
         texto: 'Caçadores de Trolls',
         ano: '2016',
         idade: '10+',
@@ -459,7 +459,7 @@ const contentData = {
         sinopse: 'Um adolescente descobre um amuleto que o transforma no protetor dos Trolls e deve defender seu mundo subterrâneo das forças malignas.'
     },
     Divertidamente: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/_MC3XuMvsDI',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/ukQeR3zYncw?si=PoZIIoAIIK9hpuLW',
         texto: 'Divertida Mente',
         ano: '2015',
         idade: '10+',
@@ -467,7 +467,7 @@ const contentData = {
         sinopse: 'Riley é uma menina que passa por uma grande mudança quando sua família se muda para São Francisco. Dentro de sua mente, cinco emoções - Alegria, Medo, Raiva, Nojinho e Tristeza - tentam guiá-la nessa nova fase da vida.'
     },
     GatoDeBotas2: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/xPS4twc2gEs',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/sLk94T-hS78?si=KNbwe1_ffuyo2--u',
         texto: 'Gato de Botas 2: O Último Pedido',
         ano: '2022',
         idade: '10+',
@@ -475,7 +475,7 @@ const contentData = {
         sinopse: 'Gato de Botas descobre que usou oito de suas nove vidas e embarca em uma jornada para encontrar a mítica Última Vida.'
     },
     Shrek: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/wkY5Dq2_FQU',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/Cvf19P42sNo?si=3uu9BVN8KIUum-1A',
         texto: 'Shrek',
         ano: '2001',
         idade: '10+',
@@ -483,7 +483,7 @@ const contentData = {
         sinopse: 'Um ogro solitário embarca em uma missão para resgatar uma princesa, mas descobre o verdadeiro significado de amizade e amor.'
     },
     KungFuPanda4: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/hH5ZJqePyTA',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/6c3sZz1CiZc?si=1I10iGWQofe_BZFq',
         texto: 'Kung Fu Panda 4',
         ano: '2024',
         idade: '10+',
@@ -491,7 +491,7 @@ const contentData = {
         sinopse: 'Po e seus amigos enfrentam novas ameaças e desafios enquanto defendem o Vale da Paz.'
     },
     Rio: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/F_YBLkmCTc0',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/d37-kpW5Koo?si=5b2wGAbUom-T1-VP',
         texto: 'Rio',
         ano: '2011',
         idade: '10+',
@@ -499,7 +499,7 @@ const contentData = {
         sinopse: 'Um papagaio domesticado do Minnesota viaja ao Rio de Janeiro para encontrar a única fêmea restante de sua espécie.'
     },
     Megan: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/zJgGkUqRL1c',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/JcKRaUGJcqY?si=vtcZfkoXwpWxesW3',
         texto: 'Megan',
         ano: '2022',
         idade: '16+',
@@ -507,7 +507,7 @@ const contentData = {
         sinopse: 'Uma engenheira constrói um robô com inteligência artificial para ser a companheira perfeita, mas as coisas saem do controle.'
     },
     Sorria: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/BZLl6D0tqHg',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/lztr0VOb-_s?si=Mvkfndv07thE0eBF',
         texto: 'Sorria',
         ano: '2022',
         idade: '16+',
@@ -515,7 +515,7 @@ const contentData = {
         sinopse: 'Uma terapeuta testemunha um incidente bizarro envolvendo um paciente e começa a vivenciar eventos aterrorizantes.'
     },
     ItACoisa: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/xKJmEC5ieOk',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/22QjxPHkE1g?si=98134Hlt4Y17WXZw',
         texto: 'It: A Coisa',
         ano: '2017',
         idade: '16+',
@@ -523,7 +523,7 @@ const contentData = {
         sinopse: 'Um grupo de crianças enfrenta uma entidade maléfica que assume a forma de um palhaço para aterrorizar a cidade de Derry.'
     },
     AMorteTeDaParabens: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/1NTaDm3atkc',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/bbNGVWkTT3w?si=uN48tjlMG5MEvakA',
         texto: 'A Morte Te Dá Parabéns',
         ano: '2017',
         idade: '16+',
@@ -531,7 +531,7 @@ const contentData = {
         sinopse: 'Uma estudante universitária fica presa em um loop temporal, revivendo o dia de seu assassinato até descobrir o assassino.'
     },
     IZombie: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/b9DZKY0k1XA',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/kC-2aFDEpmY?si=MEbiIHiqeDWYXpSt',
         texto: 'iZombie',
         ano: '2015',
         idade: '16+',
@@ -539,7 +539,7 @@ const contentData = {
         sinopse: 'Uma médica residente se transforma em zumbi e usa suas habilidades para resolver crimes, consumindo cérebros das vítimas para absorver suas memórias.'
     },
     SuperNatural: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/yy96yJjkvjo',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/31A0DqX6jHI?si=t4j3RI6mPo9ocxDW',
         texto: 'Supernatural',
         ano: '2005',
         idade: '16+',
@@ -547,7 +547,7 @@ const contentData = {
         sinopse: 'Os irmãos Winchester caçam monstros, demônios e outras criaturas sobrenaturais enquanto buscam respostas sobre suas próprias vidas e destinos.'
     },
     Premonicao: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/ArA0_8ToI5g',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/XaVLVKLAJYM?si=fc1y87PGUGylxZdq',
         texto: 'Premonição',
         ano: '2000',
         idade: '16+',
@@ -555,7 +555,7 @@ const contentData = {
         sinopse: 'Um adolescente tem uma premonição de um acidente de avião e salva várias pessoas, apenas para serem caçados pela Morte posteriormente.'
     },
     JogosMortais: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/OCzRJfvHuJs',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/S-1QgOMQ-ls?si=ocQhPk04gVP_MhEH',
         texto: 'Jogos Mortais',
         ano: '2004',
         idade: '18+',
@@ -563,7 +563,7 @@ const contentData = {
         sinopse: 'Um assassino conhecido como Jigsaw coloca suas vítimas em situações mortais, onde devem fazer escolhas horríveis para sobreviver.'
     },
     Chucky: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/UJmvXq9J6E0',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/6HqSAtciV3U?si=UW6RNA5nOt8zk9pG',
         texto: 'Chucky: O Boneco Assassino',
         ano: '1988',
         idade: '18+',
@@ -571,7 +571,7 @@ const contentData = {
         sinopse: 'Um boneco aparentemente inocente, possuído pelo espírito de um assassino em série, causa terror ao ser dado como presente a um jovem garoto.'
     },
     Annabelle: {
-        videoSrc: 'https://www.youtube-nocookie.com/embed/EcIWVtTaW9g',
+        videoSrc: 'https://www.youtube-nocookie.com/embed/jAw1nwD_BJo?si=kUFdT8A7SIjq4Fp0',
         texto: 'Annabelle',
         ano: '2014',
         idade: '16+',
