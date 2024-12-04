@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     -webkit-user-drag: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -48,6 +49,10 @@ header .menu-desktop nav ul li a {
     text-decoration: none;
 }
 
+header .menu-desktop nav ul li a:hover {
+    color: #ff2600;
+}
+
 header .lupa img {
     margin: 10px 20px 0 0;
     max-width: 30px;
@@ -73,15 +78,11 @@ header .lupa img {
 
 /* Rotação dos filmes: */
 
-.categoria,
-.categoria2,
 .series {
     padding: 0 20px;
     margin-top: 10px;
 }
 
-.categoria h2,
-.categoria2 h2,
 .series h2 {
     position: relative;
     color: #fff;
@@ -90,16 +91,14 @@ header .lupa img {
     padding-bottom: 10px;
 }
 
-.categoria-videos,
-.categoria-videos2,
-.categoria-videos3,
-.categoria-videos4,
-.categoria-videos5,
-.categoria-videos6,
-.categoria-videos7,
-.categoria-videos8,
-.categoria-videos9 {
-padding-bottom: 50px;
+.populares-series,
+.recentes-series,
+.acao-series,
+.suspense-series,
+.ficcao-series,
+.animacao-series,
+.terror-series {
+    padding-bottom: 50px;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -107,42 +106,36 @@ padding-bottom: 50px;
     gap: 10px;
 }
 
-.categoria-videos::-webkit-scrollbar,
-.categoria-videos2::-webkit-scrollbar,
-.categoria-videos3::-webkit-scrollbar,
-.categoria-videos4::-webkit-scrollbar,
-.categoria-videos5::-webkit-scrollbar,
-.categoria-videos6::-webkit-scrollbar,
-.categoria-videos7::-webkit-scrollbar,
-.categoria-videos8::-webkit-scrollbar,
-.categoria-videos9::-webkit-scrollbar {
+.populares-series::-webkit-scrollbar,
+.recentes-series::-webkit-scrollbar,
+.acao-series::-webkit-scrollbar,
+.suspense-series::-webkit-scrollbar,
+.ficcao-series::-webkit-scrollbar,
+.animacao-series::-webkit-scrollbar,
+.terror-series::-webkit-scrollbar {
     display: none;
 }
 
-.categoria-videos img,
-.categoria-videos2 img,
-.categoria-videos3 img,
-.categoria-videos4 img,
-.categoria-videos5 img,
-.categoria-videos6 img,
-.categoria-videos7 img,
-.categoria-videos8 img,
-.categoria-videos9 img {
+.populares-series img,
+.recentes-series img,
+.acao-series img,
+.suspense-series img,
+.ficcao-series img,
+.animacao-series img,
+.terror-series img {
     width: 299px;
     height: 168px;
     opacity: 0.8;
     cursor: pointer;
 }
 
-.categoria-videos img:hover,
-.categoria-videos2 img:hover,
-.categoria-videos3 img:hover,
-.categoria-videos4 img:hover,
-.categoria-videos5 img:hover,
-.categoria-videos6 img:hover,
-.categoria-videos7 img:hover,
-.categoria-videos8 img:hover,
-.categoria-videos9 img:hover {
+.populares-series img:hover,
+.recentes-series img:hover,
+.acao-series img:hover,
+.suspense-series img:hover,
+.ficcao-series img:hover,
+.animacao-series img:hover,
+.terror-series img:hover {
     opacity: 1.0;
     border: 3px solid white;
 }
@@ -185,4 +178,105 @@ padding-bottom: 50px;
     align-items: center;
     user-select: none;
     display: none;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    height: 200px;
+    background: linear-gradient(to bottom, rgb(16, 16, 16) 0%, rgb(16, 16, 16) 70%, rgb(12, 12, 12) 97%, rgb(12, 12, 12) 100%); /* Novo codigo maravilhoso que descobri, faz degrade */
+}
+
+.inicio a {
+    background-color: transparent;
+}
+
+.inicio button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.11);
+    color: rgba(255, 255, 255, 0.49);
+    border-radius: 30px;
+    border-color: #00000037;
+}
+
+.inicio button:hover {
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.329);
+    color: rgba(255, 255, 255, 0.753);
+    border-radius: 30px;
+    border-color: #6d6d6d79;
+}
+
+footer {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 40px 0 40px 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.rodape {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Separa o contato em uma linha, e o menu em outra */
+    align-items: center;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px; /* Espaço entre os ícones e o menu */
+}
+
+.contato a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    transition: transform 0.3s; /* Faz com que a animação dure 3seg*/
+}
+
+.contato a img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.menu-rodape ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-rodape a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu-rodape a:hover {
+    color: #ff2600;
+}
+
+.render-container {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.render {
+    width: 180px;
+    height: auto;
 }

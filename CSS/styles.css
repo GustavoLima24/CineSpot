@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   -webkit-user-drag: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -46,6 +47,10 @@ header .menu-desktop nav ul li{
 header .menu-desktop nav ul li a{
   color: white;
   text-decoration: none;
+}
+
+header .menu-desktop nav ul li a:hover {
+  color: #ff2600;
 }
 
 header .lupa img{
@@ -175,45 +180,9 @@ header .lupa img{
 
 /* Rotação dos filmes: */
 
-.Popular {
-  left: 0;
-  top: 0;
-  position: relative;
-  height: 200px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.categoria-videos {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  user-select: none;
-  gap: 10px;
-}
-
-.categoria-videos::-webkit-scrollbar { /* Codigo novo que descobri */
-  display: none; /* Esconde a barra de rolagem */
-}
-
 .categoria {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   margin-top: 10px;
-}
-
-.categoria-videos img {
-  width: 170px;
-  height: 250px;
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.categoria-videos img:hover {
-  opacity: 1.0;
-  border: 3px solid white;
 }
 
 .categoria h2 {
@@ -223,7 +192,7 @@ header .lupa img{
   font-weight: 600;
 }
 
-.categoria-videos2 {
+.categoria-popular, .categoria-series, .categoria-filmes, .categoria-top10, .categoria-acao, .categoria-suspense, .categoria-ficcao, .categoria-animacao, .categoria-terror {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -231,24 +200,47 @@ header .lupa img{
   gap: 10px;
 }
 
-.categoria-videos2::-webkit-scrollbar { /* Codigo novo que descobri */
-  display: none; /* Esconde a barra de rolagem */
+.categoria-popular::-webkit-scrollbar,
+.categoria-series::-webkit-scrollbar,
+.categoria-filmes::-webkit-scrollbar,
+.categoria-top10::-webkit-scrollbar,
+.categoria-acao::-webkit-scrollbar,
+.categoria-suspense::-webkit-scrollbar,
+.categoria-ficcao::-webkit-scrollbar,
+.categoria-animacao::-webkit-scrollbar,
+.categoria-terror::-webkit-scrollbar {
+  display: none;
 }
 
-.categoria2 {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 10px;
-}
-
-.categoria-videos2 img {
+.categoria-popular img, 
+.categoria-series img,
+.categoria-filmes img,
+.categoria-top10 img,
+.categoria-acao img,
+.categoria-suspense img,
+.categoria-ficcao img,
+.categoria-animacao img,
+.categoria-terror img {
   width: 170px;
   height: 250px;
   opacity: 0.8;
   cursor: pointer;
 }
 
-.arrowleft-button, .arrowleft-button2{
+.categoria-popular img:hover, 
+.categoria-series img:hover, 
+.categoria-filmes img:hover, 
+.categoria-top10 img:hover, 
+.categoria-acao img:hover, 
+.categoria-suspense img:hover, 
+.categoria-ficcao img:hover, 
+.categoria-animacao img:hover, 
+.categoria-terror img:hover {
+  opacity: 1.0;
+  border: 3px solid white;
+}
+
+.arrowleft-button, .arrowleft-button2, .arrowleft-button3 {
   z-index: 3;
   width: 50px;
   margin-top: 100px;
@@ -260,7 +252,7 @@ header .lupa img{
   display: none;
 }
 
-.arrowright-button, .arrowright-button2{
+.arrowright-button, .arrowright-button2, .arrowright-button3 {
   z-index: 3;
   width: 50px;
   margin-top: 100px;
@@ -270,18 +262,6 @@ header .lupa img{
   align-items: center;
   user-select: none;
   display: none;
-}
-
-.categoria-videos2 img:hover {
-  opacity: 1.0;
-  border: 3px solid white;
-}
-
-.categoria2 h2 {
-  position: relative;
-  color: #fff;
-  font-size: 22px;
-  font-weight: 600;
 }
 
 /* popup filmes*/
@@ -296,6 +276,9 @@ header .lupa img{
 }
 
 .popup {
+  border-top: 2px solid rgba(255, 255, 255, 0.14);
+  border-left: 2px solid rgba(255, 255, 255, 0.14);
+  border-right: 2px solid rgba(255, 255, 255, 0.14);
   background-color: rgb(15, 15, 15);
   position: fixed;
   position: relative;
@@ -404,6 +387,107 @@ header .lupa img{
 
 .noscroll {
   overflow: hidden;
+}
+
+.inicio {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  height: 200px;
+  background: linear-gradient(to bottom, rgb(16, 16, 16) 0%, rgb(16, 16, 16) 70%, rgb(12, 12, 12) 97%, rgb(12, 12, 12) 100%); /* Novo codigo maravilhoso que descobri, faz degrade */
+}
+
+.inicio a {
+  background-color: transparent;
+}
+
+.inicio button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.11);
+  color: rgba(255, 255, 255, 0.49);
+  border-radius: 30px;
+  border-color: #00000037;
+}
+
+.inicio button:hover {
+  transition: background-color 0.3s;
+  transition: color 0.3s;
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.329);
+  color: rgba(255, 255, 255, 0.753);
+  border-radius: 30px;
+  border-color: #6d6d6d79;
+}
+
+footer {
+  background-color: rgb(12, 12, 12);
+  color: white;
+  padding: 40px 0 40px 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.rodape {
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Separa o contato em uma linha, e o menu em outra */
+  align-items: center;
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px; /* Espaço entre os ícones e o menu */
+}
+
+.contato a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+  transition: transform 0.3s; /* Faz com que a animação dure 3seg*/
+}
+
+.contato a img:hover {
+  transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.menu-rodape ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-rodape a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu-rodape a:hover {
+  color: #ff2600;
+}
+
+.render-container {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.render {
+  width: 180px;
+  height: auto;
 }
 
 @media(max-width: 808px){

@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     -webkit-user-drag: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -47,6 +48,10 @@ header .menu-desktop nav ul li a {
     color: white;
     text-decoration: none;
 }
+
+header .menu-desktop nav ul li a:hover {
+    color: #ff2600;
+  }
 
 header .lupa img {
     margin: 10px 20px 0 0;

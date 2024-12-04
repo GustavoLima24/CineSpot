@@ -1,7 +1,28 @@
 // Seleciona os elementos das categorias e botões
 const categoryBars = [
-  document.querySelector('.categoria-videos'),
-  document.querySelector('.categoria-videos2')
+  document.querySelector('.categoria-popular'),
+  document.querySelector('.categoria-series'),
+  document.querySelector('.categoria-filmes'),
+  document.querySelector('.categoria-top10'),
+  document.querySelector('.categoria-acao'),
+  document.querySelector('.categoria-suspense'),
+  document.querySelector('.categoria-ficcao'),
+  document.querySelector('.categoria-animacao'),
+  document.querySelector('.categoria-terror'),
+  document.querySelector('.populares-filmes'),
+  document.querySelector('.recentes-filmes'),
+  document.querySelector('.acao-filmes'),
+  document.querySelector('.suspense-filmes'),
+  document.querySelector('.ficcao-filmes'),
+  document.querySelector('.animacao-filmes'),
+  document.querySelector('.terror-filmes'),
+  document.querySelector('.populares-series'),
+  document.querySelector('.recentes-series'),
+  document.querySelector('.acao-series'),
+  document.querySelector('.suspense-series'),
+  document.querySelector('.ficcao-series'),
+  document.querySelector('.animacao-series'),
+  document.querySelector('.terror-series')
 ];
 
 const arrowRightButtons = [

@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     -webkit-user-drag: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -46,6 +47,10 @@ header .menu-desktop nav ul li {
 header .menu-desktop nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+header .menu-desktop nav ul li a:hover {
+    color: #ff2600;
 }
 
 header .lupa img {
@@ -175,3 +180,72 @@ header .lupa img {
     font-weight: 300;
     font-size: 15px;
 }
+
+footer {
+    color: white;
+    padding: 40px 0 40px 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.rodape {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Separa o contato em uma linha, e o menu em outra */
+    align-items: center;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px; /* Espaço entre os ícones e o menu */
+}
+
+.contato a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    transition: transform 0.3s; /* Faz com que a animação dure 3seg*/
+}
+
+.contato a img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.menu-rodape ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-rodape a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu-rodape a:hover {
+    color: #ff2600;
+}
+
+.render-container {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.render {
+    width: 180px;
+    height: auto;
+}
+

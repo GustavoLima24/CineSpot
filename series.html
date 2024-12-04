@@ -23,7 +23,7 @@
 <body>
     <header>
 
-      <div class="interface">
+      <div class="interface" id="topo">
 
         <section class="logo">
           <img src="Imagens/logo.png" alt="Logo">
@@ -74,11 +74,11 @@
     <h3>Bem-vindo à CineSpot, o seu portal definitivo para as melhores séries de todas as plataformas de streaming. Aqui, você encontrará recomendações selecionadas para todos os gostos, desde dramas emocionantes até comédias hilariantes. Navegue, descubra e comece a maratonar suas próximas séries favoritas!</h3>
   </div>    
 
-  <div class="series" id="Populares">
+  <div class="series">
     <h2>Populares</h2>
     <img class="arrowright-button3" src="Imagens/arrow.png">
     <img class="arrowleft-button3" src="Imagens/arrowleft.png">
-    <div class="categoria-videos3">
+    <div class="populares-series">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
@@ -92,11 +92,11 @@
     </div>
   </div>
   
-  <div class="series" id="Recentes">
+  <div class="series">
     <h2>Recentes</h2>
     <img class="arrowright-button4" src="Imagens/arrow.png">
     <img class="arrowleft-button4" src="Imagens/arrowleft.png">
-    <div class="categoria-videos4">
+    <div class="recentes-series">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
@@ -110,11 +110,11 @@
     </div>
   </div>
   
-  <div class="series" id="Acao">
+  <div class="series">
     <h2>Ação</h2>
     <img class="arrowright-button5" src="Imagens/arrow.png">
     <img class="arrowleft-button5" src="Imagens/arrowleft.png">
-    <div class="categoria-videos5">
+    <div class="acao-series">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
@@ -128,11 +128,11 @@
     </div>
   </div>
   
-  <div class="series" id="Suspense">
+  <div class="series">
     <h2>Suspense</h2>
     <img class="arrowright-button6" src="Imagens/arrow.png">
     <img class="arrowleft-button6" src="Imagens/arrowleft.png">
-    <div class="categoria-videos6">
+    <div class="suspense-series">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
@@ -146,11 +146,11 @@
     </div>
   </div>
   
-  <div class="series" id="Ficcao">
+  <div class="series">
     <h2>Ficção</h2>
     <img class="arrowright-button7" src="Imagens/arrow.png">
     <img class="arrowleft-button7" src="Imagens/arrowleft.png">
-    <div class="categoria-videos7">
+    <div class="ficcao-series">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
@@ -164,11 +164,11 @@
     </div>
   </div>
 
-  <div class="series" id="Animação">
+  <div class="series">
     <h2>Animação</h2>
     <img class="arrowright-button8" src="Imagens/arrow.png">
     <img class="arrowleft-button8" src="Imagens/arrowleft.png">
-    <div class="categoria-videos8">
+    <div class="animacao-series">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
@@ -182,11 +182,11 @@
     </div>
   </div>
 
-  <div class="series" id="Terror">
+  <div class="series">
     <h2>Terror</h2>
     <img class="arrowright-button9" src="Imagens/arrow.png">
     <img class="arrowleft-button9" src="Imagens/arrowleft.png">
-    <div class="categoria-videos9">
+    <div class="terror-series">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
       <img class="" src="" onclick="changeContent('')">
@@ -199,12 +199,48 @@
       <img class="" src="" onclick="changeContent('')">
     </div>
   </div>
-  
-  <script src="script.js"></script> 
-  <script src="skip.js"></script>
-  <script src="scroll.js"></script>
-  <script src="popup.js"></script>
-  <script src="filmes.js"></script>
+
+  <div class="inicio">
+    <a href="#topo">
+      <button>Voltar ao ínicio</button>
+    </a>
+  </div>
+
+  <footer>
+    <div class="rodape">
+        <div class="contato">
+            <a href="https://www.instagram.com/lim4_ofc/" class="instagram">
+                <img src="Imagens/instagram.png" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/people/Gustavo-Lima/pfbid02znoPhh1ZTmd8hLfXLDxAWrCtnsTBunMHiQS2Ae8MaNN112aGWZtdo4WURCe6vYn4l/" class="facebook">
+                <img src="Imagens/facebook.png" alt="facebook">
+            </a>
+            <a href="https://github.com/GustavoLima24" class="github">
+                <img src="Imagens/github.png" alt="github">
+            </a>
+        </div>
+        <section class="menu-rodape">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="filmes.html">Filmes</a></li>
+                    <li><a href="series.html">Séries</a></li>
+                    <li><a href="favoritos.html">Meus Favoritos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </section>
+        <div class="render-container">
+            <img class="render" src="Imagens/render_toGilson.png" alt="render">
+        </div>
+    </div>
+  </footer>
+
+  <script src="JavaScript/script.js"></script> 
+  <script src="JavaScript/skip.js"></script>
+  <script src="JavaScript/scroll.js"></script>
+  <script src="JavaScript/popup.js"></script>
+  <script src="JavaScript/filmes.js"></script>
   <script src="https://www.youtube.com/iframe_api"></script>
 </body>
 </html>

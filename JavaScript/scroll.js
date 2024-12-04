@@ -1,5 +1,5 @@
 // Seleciona todos os elementos com as classes 'categoria-videos' e 'categoria-videos2'
-const deslizadores = document.querySelectorAll('.categoria-videos, .categoria-videos2');
+const deslizadores = document.querySelectorAll('.categoria-popular, .categoria-series, .categoria-filmes, .categoria-top10, .categoria-acao, .categoria-suspense, .categoria-ficcao, .categoria-animacao, .categoria-terror, .populares-filmes, .recentes-filmes, .acao-filmes, .suspense-filmes, .ficcao-filmes, .animacao-filmes, .terror-filmes, .populares-series, .recentes-series, .acao-series, .suspense-series, .ficcao-series, .animacao-series, .terror-series');
 
 // Declara variáveis para controle do deslizamento
 let estaPressionado = false;
