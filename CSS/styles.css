@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 
-.interface{
+.interface {
   max-width: 100%;
   margin: 0 auto;
 }
@@ -25,26 +25,26 @@ header {
   padding: 5px;
 }
 
-header .interface{
+header .interface {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .logo img{
+header .logo img {
   max-width: 140px;
 }
 
-header .menu-desktop nav ul{
+header .menu-desktop nav ul {
   list-style-type: none;
 }
 
-header .menu-desktop nav ul li{
+header .menu-desktop nav ul li {
   display: inline-block;
   margin: 0 40px;
 }
 
-header .menu-desktop nav ul li a{
+header .menu-desktop nav ul li a {
   color: white;
   text-decoration: none;
 }
@@ -53,7 +53,7 @@ header .menu-desktop nav ul li a:hover {
   color: #ff2600;
 }
 
-header .lupa img{
+header .lupa img {
   margin: 10px 20px 0 0;
   max-width: 30px;
   cursor: pointer;
@@ -67,11 +67,12 @@ header .lupa img{
 #video-container {
   position: relative;
   width: 100%;
-  padding-bottom: 41.95%; /* 605px / 1440px = 0.4195 */
+  padding-bottom: 41.95%;
+  /* 605px / 1440px = 0.4195 */
   overflow: hidden;
 }
 
-.BannerPrincipal{
+.BannerPrincipal {
   position: absolute;
   align-items: center;
   z-index: 1;
@@ -81,30 +82,30 @@ header .lupa img{
   transform: translateY(-30%);
 }
 
-#background{
+#background {
   max-width: 330px;
 }
 
-.BannerPrincipal h4{
+.BannerPrincipal h4 {
   padding-left: 25px;
   color: rgb(255, 255, 255, 0.5);
   font-weight: 500;
 }
 
-.BannerPrincipal h4 span{
+.BannerPrincipal h4 span {
   padding: 0 10px;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.BannerPrincipal h4 span:first-child{
+.BannerPrincipal h4 span:first-child {
   padding-left: 0;
 }
 
-.BannerPrincipal h4 span:last-child{
+.BannerPrincipal h4 span:last-child {
   border-right: none;
 }
 
-.BannerPrincipal h4 span i{
+.BannerPrincipal h4 span i {
   background-color: red;
   color: #fff;
   padding: 0 8px;
@@ -113,7 +114,7 @@ header .lupa img{
   border-radius: 2px;
 }
 
-.BannerPrincipal p{
+.BannerPrincipal p {
   padding-left: 25px;
   font-size: 1em;
   font-weight: 300;
@@ -122,12 +123,12 @@ header .lupa img{
   margin: 10px 0 20px;
 }
 
-.BannerPrincipal .buttons{
+.BannerPrincipal .buttons {
   padding-left: 25px;
   position: relative;
 }
 
-.BannerPrincipal .buttons a{
+.BannerPrincipal .buttons a {
   position: relative;
   display: inline-block;
   margin-right: 10px;
@@ -140,12 +141,12 @@ header .lupa img{
   text-transform: uppercase;
 }
 
-.BannerPrincipal .buttons a:nth-child(2){
+.BannerPrincipal .buttons a:nth-child(2) {
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.BannerPrincipal .buttons a:hover:nth-child(2){
+.BannerPrincipal .buttons a:hover:nth-child(2) {
   background-color: red;
 }
 
@@ -155,7 +156,8 @@ header .lupa img{
   left: 0;
   width: 100%;
   object-fit: cover;
-  cursor: pointer; /* Adiciona cursor de mão para indicar clicabilidade */
+  cursor: pointer;
+  /* Adiciona cursor de mão para indicar clicabilidade */
 }
 
 #myVideo {
@@ -164,7 +166,8 @@ header .lupa img{
   top: 0;
   left: 0;
   width: 100%;
-  display: none; /* O vídeo começa escondido */
+  display: none;
+  /* O vídeo começa escondido */
 }
 
 #close {
@@ -192,7 +195,15 @@ header .lupa img{
   font-weight: 600;
 }
 
-.categoria-popular, .categoria-series, .categoria-filmes, .categoria-top10, .categoria-acao, .categoria-suspense, .categoria-ficcao, .categoria-animacao, .categoria-terror {
+.categoria-popular,
+.categoria-series,
+.categoria-filmes,
+.categoria-top10,
+.categoria-acao,
+.categoria-suspense,
+.categoria-ficcao,
+.categoria-animacao,
+.categoria-terror {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -212,7 +223,7 @@ header .lupa img{
   display: none;
 }
 
-.categoria-popular img, 
+.categoria-popular img,
 .categoria-series img,
 .categoria-filmes img,
 .categoria-top10 img,
@@ -227,20 +238,22 @@ header .lupa img{
   cursor: pointer;
 }
 
-.categoria-popular img:hover, 
-.categoria-series img:hover, 
-.categoria-filmes img:hover, 
-.categoria-top10 img:hover, 
-.categoria-acao img:hover, 
-.categoria-suspense img:hover, 
-.categoria-ficcao img:hover, 
-.categoria-animacao img:hover, 
+.categoria-popular img:hover,
+.categoria-series img:hover,
+.categoria-filmes img:hover,
+.categoria-top10 img:hover,
+.categoria-acao img:hover,
+.categoria-suspense img:hover,
+.categoria-ficcao img:hover,
+.categoria-animacao img:hover,
 .categoria-terror img:hover {
   opacity: 1.0;
   border: 3px solid white;
 }
 
-.arrowleft-button, .arrowleft-button2, .arrowleft-button3 {
+.arrowleft-button,
+.arrowleft-button2,
+.arrowleft-button3 {
   z-index: 3;
   width: 50px;
   margin-top: 100px;
@@ -252,7 +265,9 @@ header .lupa img{
   display: none;
 }
 
-.arrowright-button, .arrowright-button2, .arrowright-button3 {
+.arrowright-button,
+.arrowright-button2,
+.arrowright-button3 {
   z-index: 3;
   width: 50px;
   margin-top: 100px;
@@ -290,24 +305,29 @@ header .lupa img{
   left: 50%;
   border-radius: 20px 20px 0 0;
   transform: translate(-50%, -50%);
-  overflow-y: auto; 
+  overflow-y: auto;
 }
 
-.popup::-webkit-scrollbar { /* Codigo novo que descobri */
-  display: none; /* Esconde a barra de rolagem */
+.popup::-webkit-scrollbar {
+  /* Codigo novo que descobri */
+  display: none;
+  /* Esconde a barra de rolagem */
 }
 
 .video-container {
   position: relative;
-  width: 94%; /* 94% da largura da div .popup */
-  padding-bottom: 52.875%; /* Ajuste de proporção para 94% de 56.25% */
+  width: 94%;
+  /* 94% da largura da div .popup */
+  padding-bottom: 52.875%;
+  /* Ajuste de proporção para 94% de 56.25% */
   height: 0;
 }
 
 .video-container iframe {
   position: absolute;
   top: 0;
-  left: 3%; /* Centraliza o iframe na div .popup */
+  left: 3%;
+  /* Centraliza o iframe na div .popup */
   width: 100%;
   height: 100%;
 }
@@ -394,7 +414,8 @@ header .lupa img{
   justify-content: center;
   padding-top: 60px;
   height: 200px;
-  background: linear-gradient(to bottom, rgb(16, 16, 16) 0%, rgb(16, 16, 16) 70%, rgb(12, 12, 12) 97%, rgb(12, 12, 12) 100%); /* Novo codigo maravilhoso que descobri, faz degrade */
+  background: linear-gradient(to bottom, rgb(16, 16, 16) 0%, rgb(16, 16, 16) 70%, rgb(12, 12, 12) 97%, rgb(12, 12, 12) 100%);
+  /* Novo codigo maravilhoso que descobri, faz degrade */
 }
 
 .inicio a {
@@ -435,7 +456,8 @@ footer {
 .rodape {
   width: 100%;
   display: flex;
-  flex-direction: column; /* Separa o contato em uma linha, e o menu em outra */
+  flex-direction: column;
+  /* Separa o contato em uma linha, e o menu em outra */
   align-items: center;
 }
 
@@ -443,7 +465,8 @@ footer {
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin-bottom: 20px; /* Espaço entre os ícones e o menu */
+  margin-bottom: 20px;
+  /* Espaço entre os ícones e o menu */
 }
 
 .contato a img {
@@ -452,11 +475,13 @@ footer {
   border-radius: 50%;
   background-color: white;
   padding: 5px;
-  transition: transform 0.3s; /* Faz com que a animação dure 3seg*/
+  transition: transform 0.3s;
+  /* Faz com que a animação dure 3seg*/
 }
 
 .contato a img:hover {
-  transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+  transform: scale(1.1);
+  /* Efeito de zoom ao passar o mouse */
 }
 
 .menu-rodape ul {
@@ -490,8 +515,12 @@ footer {
   height: auto;
 }
 
-@media(max-width: 808px){
-  .arrowleft-button, .arrowleft-button2, .arrowright-button, .arrowright-button2{
+@media(max-width: 808px) {
+
+  .arrowleft-button,
+  .arrowleft-button2,
+  .arrowright-button,
+  .arrowright-button2 {
     display: block;
   }
 }
