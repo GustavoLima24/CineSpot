@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CineSpot</title>
-  <link rel="stylesheet" href="CSS/filmes.css">
+  <link rel="stylesheet" href="CSS/styles.css">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
   <!-- Google Fonts-->
@@ -48,6 +48,35 @@
     
     </header>
 
+  <section class="chamada">
+    <div id="video-container">
+      <img id="thumbnail" src="Imagens/interestelar.png" alt="Thumbnail">
+        <img id="close" src="Imagens/Fechar.png" alt="Close">
+
+      <div class="BannerPrincipal">
+        <img id="background" src="Imagens/logo_interestelar.png" alt="interestelar-logo">
+        <h4>
+          <span>2014</span>
+          <span><i>10+</i></span>
+          <span>2h 49min</span>
+          <span>Ficção</span>
+        </h4>
+        <p>
+          Após ver a Terra consumindo boa parte de suas reservas naturais, um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie.
+        </p>
+
+        <div class="buttons">
+          <a href="#" id="playButton"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+          <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Meus Favoritos</a>
+        </div>
+        
+      </div>
+      <video id="myVideo" controls>
+        <source src="Videos/Trailers/Filmes/Inter.webm" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
   <dialog class="background_popup">
     <div class="popup">
       <img class="voltar" src="Imagens/seta-voltar.png">
@@ -67,139 +96,170 @@
       </button>
       <h3 id="sinopse">Sinopse do filme</h3>
     </div>
-  </dialog> 
+  </dialog>  
 
-  <div class="aqui">
-    <h1>Filmes</h1>
-    <h3>Na CineSpot, reunimos os melhores filmes de todas as plataformas de streaming. Navegue e descubra as recomendações mais quentes para todos os gostos e preferências!</h3>
+  <div class="categoria">
+    <h2>Popular</h2>
+    <img class="arrowright-button" src="Imagens/arrow.png">
+    <img class="arrowleft-button" src="Imagens/arrowleft.png">
+    <div class="categoria-popular"> 
+      <img class="Interestelar" src="Imagens/Filmes/Retrato/Interestelar.png" onclick="changeContent('Interestelar')">
+      <img class="PerdidoEmMarte" src="Imagens/Filmes/Retrato/PerdidoEmMarte.png" onclick="changeContent('PerdidoEmMarte')">
+      <img class="BirdBox" src="Imagens/Filmes/Retrato/BirdBox.png" onclick="changeContent('BirdBox')">
+      <img class="OJogoDaImitação" src="Imagens/Filmes/Retrato/OJogoDaImitação.png" onclick="changeContent('OJogoDaImitação')">
+      <img class="StrangerThings" src="Imagens/Series/Retrato/StrangerThings.png" onclick="changeContent('StrangerThings')">
+      <img class="TheLastOfUs" src="Imagens/Series/Retrato/TheLastOfUs.png" onclick="changeContent('TheLastOfUs')">
+      <img class="CobraKai" src="Imagens/Series/Retrato/CobraKai.png" onclick="changeContent('CobraKai')">
+      <img class="LaCasaDePapel" src="Imagens/Series/Retrato/LaCasaDePapel.png" onclick="changeContent('LaCasaDePapel')">
+      <img class="ProjetoAlmanaque" src="Imagens/Filmes/Retrato/ProjetoAlmanaque.png" onclick="changeContent('ProjetoAlmanaque')">
+      <img class="JovemSheldon" src="Imagens/Series/Retrato/JovemSheldon.png" onclick="changeContent('JovemSheldon')">
+    </div>
   </div>
 
-  <div class="filmes">
-    <h2>Populares</h2>
+  <div class="categoria">
+    <h2>Séries</h2>
+    <img class="arrowright-button2" src="Imagens/arrow.png">
+    <img class="arrowleft-button2" src="Imagens/arrowleft.png">
+    <div class="categoria-series"> 
+        <img class="ControlZ" src="Imagens/Series/Retrato/ControlZ.png" onclick="changeContent('ControlZ')">
+        <img class="CobraKai" src="Imagens/Series/Retrato/CobraKai.png" onclick="changeContent('CobraKai')">
+        <img class="TeenWolf" src="Imagens/Series/Retrato/TeenWolf.png" onclick="changeContent('TeenWolf')">
+        <img class="LaCasaDePapel" src="Imagens/Series/Retrato/LaCasaDePapel.png" onclick="changeContent('LaCasaDePapel')">
+        <img class="RoundSix" src="Imagens/Series/Retrato/RoundSix.png" onclick="changeContent('RoundSix')">
+        <img class="StrangerThings" src="Imagens/Series/Retrato/StrangerThings.png" onclick="changeContent('StrangerThings')">
+        <img class="SweetTooth" src="Imagens/Series/Retrato/SweetTooth.png" onclick="changeContent('SweetTooth')">
+        <img class="Lucifer" src="Imagens/Series/Retrato/Lucifer.png" onclick="changeContent('Lucifer')">
+        <img class="TheLastOfUs" src="Imagens/Series/Retrato/TheLastOfUs.png" onclick="changeContent('TheLastOfUs')">
+        <img class="JovemSheldon" src="Imagens/Series/Retrato/JovemSheldon.png" onclick="changeContent('JovemSheldon')">
+    </div>
+  </div>
+
+  <div class="categoria">
+    <h2>Filmes</h2>
     <img class="arrowright-button3" src="Imagens/arrow.png">
     <img class="arrowleft-button3" src="Imagens/arrowleft.png">
-    <div class="populares-filmes">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
+    <div class="categoria-filmes">
+      <img class="ATeoriaDeTudo" src="Imagens/Filmes/Retrato/ATeoriaDeTudo.png" onclick="changeContent('ATeoriaDeTudo')">
+      <img class="VingadoresUltimato" src="Imagens/Filmes/Retrato/VingadoresUltimato.png" onclick="changeContent('VingadoresUltimato')">
+      <img class="PerdidoEmMarte" src="Imagens/Filmes/Retrato/PerdidoEmMarte.png" onclick="changeContent('PerdidoEmMarte')">
+      <img class="AProcuraDaFelicidade" src="Imagens/Filmes/Retrato/AProcuraDaFelicidade.png" onclick="changeContent('AProcuraDaFelicidade')">
+      <img class="ProjetoAlmanaque" src="Imagens/Filmes/Retrato/ProjetoAlmanaque.png" onclick="changeContent('ProjetoAlmanaque')">
+      <img class="OsSimpsons" src="Imagens/Filmes/Retrato/OsSimpsons.png" onclick="changeContent('OsSimpsons')">
+      <img class="GenioIndomavel" src="Imagens/Filmes/Retrato/GenioIndomavel.png" onclick="changeContent('GenioIndomavel')">
+      <img class="GeraçãoDoFuturo" src="Imagens/Filmes/Retrato/GeraçãoDoFuturo.png" onclick="changeContent('GeraçãoDoFuturo')">
+      <img class="OJogoDaImitação" src="Imagens/Filmes/Retrato/OJogoDaImitação.png" onclick="changeContent('OJogoDaImitação')">
+      <img class="BirdBox" src="Imagens/Filmes/Retrato/BirdBox.png" onclick="changeContent('BirdBox')">
+    </div>
+  </div>
+
+  <div class="categoria">
+    <h2>Top 10</h2>
+    <img class="arrowright-button3" src="Imagens/arrow.png">
+    <img class="arrowleft-button3" src="Imagens/arrowleft.png">
+    <div class="categoria-top10">
+      <img class="Interestelar" src="Imagens/Filmes/Retrato/Interestelar.png" onclick="changeContent('Interestelar')">
+      <img class="StrangerThings" src="Imagens/Series/Retrato/StrangerThings.png" onclick="changeContent('StrangerThings')">
+      <img class="TeenWolf" src="Imagens/Series/Retrato/TeenWolf.png" onclick="changeContent('TeenWolf')">
+      <img class="Lucifer" src="Imagens/Series/Retrato/Lucifer.png" onclick="changeContent('Lucifer')">
+      <img class="LaCasaDePapel" src="Imagens/Series/Retrato/LaCasaDePapel.png" onclick="changeContent('LaCasaDePapel')">
+      <img class="AOrdem" src="Imagens/Series/Retrato/AOrdem.png" onclick="changeContent('AOrdem')">
+      <img class="JovemSheldon" src="Imagens/Series/Retrato/JovemSheldon.png" onclick="changeContent('JovemSheldon')">
+      <img class="PerdidoEmMarte" src="Imagens/Filmes/Retrato/PerdidoEmMarte.png" onclick="changeContent('PerdidoEmMarte')">
+      <img class="ForAllMankind" src="Imagens/Series/Retrato/ForAllMankind.png" onclick="changeContent('ForAllMankind')">
+      <img class="ProjetoAlmanaque" src="Imagens/Filmes/Retrato/ProjetoAlmanaque.png" onclick="changeContent('ProjetoAlmanaque')">
     </div>
   </div>
   
-  <div class="filmes">
-    <h2>Recentes</h2>
-    <img class="arrowright-button4" src="Imagens/arrow.png">
-    <img class="arrowleft-button4" src="Imagens/arrowleft.png">
-    <div class="recentes-filmes">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-    </div>
-  </div>
-  
-  <div class="filmes">
+  <div class="categoria">
     <h2>Ação</h2>
-    <img class="arrowright-button5" src="Imagens/arrow.png">
-    <img class="arrowleft-button5" src="Imagens/arrowleft.png">
-    <div class="acao-filmes">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
+    <img class="arrowright-button3" src="Imagens/arrow.png">
+    <img class="arrowleft-button3" src="Imagens/arrowleft.png">
+    <div class="categoria-acao">
+      <img class="OAtirador" src="Imagens/Series/Retrato/OAtirador.png" onclick="changeContent('OAtirador')">
+      <img class="TropaDeElite" src="Imagens/Filmes/Retrato/TropaDeElite.png" onclick="changeContent('TropaDeElite')">
+      <img class="Kingsman" src="Imagens/Filmes/Retrato/Kingsman.png" onclick="changeContent('Kingsman')">
+      <img class="GigantesDeAço" src="Imagens/Filmes/Retrato/GiganteDeAço.png" onclick="changeContent('GigantesDeAço')">
+      <img class="EsquadrãoSuicida" src="Imagens/Filmes/Retrato/EsquadrãoSuicida.png" onclick="changeContent('EsquadrãoSuicida')">
+      <img class="KaratêKid" src="Imagens/Filmes/Retrato/KarateKid.png" onclick="changeContent('KaratêKid')">
+      <img class="FreeGuy" src="Imagens/Filmes/Retrato/FreeGuy.png" onclick="changeContent('FreeGuy')">
+      <img class="DoutorEstranho" src="Imagens/Filmes/Retrato/DoutorEstranho.png" onclick="changeContent('DoutorEstranho')">
+      <img class="VovóZona" src="Imagens/Filmes/Retrato/Vovó... Zona.png" onclick="changeContent('VovóZona')">
+      <img class="PercyJackson" src="Imagens/Series/Retrato/PercyJackson.png" onclick="changeContent('PercyJackson')">
     </div>
   </div>
   
-  <div class="filmes">
+  <div class="categoria">
     <h2>Suspense</h2>
-    <img class="arrowright-button6" src="Imagens/arrow.png">
-    <img class="arrowleft-button6" src="Imagens/arrowleft.png">
-    <div class="suspense-filmes">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
+    <img class="arrowright-button3" src="Imagens/arrow.png">
+    <img class="arrowleft-button3" src="Imagens/arrowleft.png">
+    <div class="categoria-suspense">
+      <img class="AliceInBorderland" src="Imagens/Series/Retrato/AliceInBorderland.png" onclick="changeContent('AliceInBorderland')">
+      <img class="MrRobot" src="Imagens/Series/Retrato/MrRobot.png" onclick="changeContent('MrRobot')">
+      <img class="TruqueDeMestre" src="Imagens/Filmes/Retrato/TruqueDeMestre.png" onclick="changeContent('TruqueDeMestre')">
+      <img class="AllOfUsAreDead" src="Imagens/Series/Retrato/AllOfUsAreDead.png" onclick="changeContent('AllOfUsAreDead')">
+      <img class="Interceptor" src="Imagens/Filmes/Retrato/Interceptor.png" onclick="changeContent('Interceptor')">
+      <img class="Berlim" src="Imagens/Series/Retrato/Berlim.png" onclick="changeContent('Berlim')">
+      <img class="OTelefonePreto" src="Imagens/Filmes/Retrato/OTelefonePreto.png" onclick="changeContent('OTelefonePreto')">
+      <img class="LaBrea" src="Imagens/Series/Retrato/LaBrea.png" onclick="changeContent('LaBrea')">
+      <img class="TruqueDeMestre2" src="Imagens/Filmes/Retrato/TruqueDeMestre2.png" onclick="changeContent('TruqueDeMestre2')">
+      <img class="AOrdem" src="Imagens/Series/Retrato/AOrdem.png" onclick="changeContent('AOrdem')">
     </div>
   </div>
   
-  <div class="filmes">
+
+  <div class="categoria">
     <h2>Ficção</h2>
-    <img class="arrowright-button7" src="Imagens/arrow.png">
-    <img class="arrowleft-button7" src="Imagens/arrowleft.png">
-    <div class="ficcao-filmes">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
+    <img class="arrowright-button3" src="Imagens/arrow.png">
+    <img class="arrowleft-button3" src="Imagens/arrowleft.png">
+    <div class="categoria-ficcao">
+      <img class="TheRain" src="Imagens/Series/Retrato/TheRain.png" onclick="changeContent('TheRain')">
+      <img class="NoiteAdentro" src="Imagens/Series/Retrato/NoiteAdentro.png" onclick="changeContent('NoiteAdentro')">
+      <img class="Tomorrowland" src="Imagens/Filmes/Retrato/Tomorrowland.png" onclick="changeContent('Tomorrowland')">
+      <img class="CriandoDion" src="Imagens/Series/Retrato/CriandoDion.png" onclick="changeContent('CriandoDion')">
+      <img class="OShowDeTruman" src="Imagens/Filmes/Retrato/OShowDeTruman.png" onclick="changeContent('OShowDeTruman')">
+      <img class="SpiderHead" src="Imagens/Filmes/Retrato/SpiderHead.png" onclick="changeContent('SpiderHead')">
+      <img class="MentesSombrias" src="Imagens/Filmes/Retrato/MentesSombrias.png" onclick="changeContent('MentesSombrias')">
+      <img class="Lucy" src="Imagens/Filmes/Retrato/Lucy.png" onclick="changeContent('Lucy')">
+      <img class="Armageddon" src="Imagens/Filmes/Retrato/Armageddon.png" onclick="changeContent('Armageddon')">
+      <img class="Robocop" src="Imagens/Filmes/Retrato/Robocop.png" onclick="changeContent('Robocop')">
     </div>
   </div>
-
-  <div class="filmes">
+  
+  <div class="categoria">
     <h2>Animação</h2>
-    <img class="arrowright-button8" src="Imagens/arrow.png">
-    <img class="arrowleft-button8" src="Imagens/arrowleft.png">
-    <div class="animacao-filmes">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
+    <img class="arrowright-button3" src="Imagens/arrow.png">
+    <img class="arrowleft-button3" src="Imagens/arrowleft.png">
+    <div class="categoria-animacao">
+      <img class="DeathNote" src="Imagens/Series/Retrato/DeathNote.png" onclick="changeContent('DeathNote')">
+      <img class="SuperChoque" src="Imagens/Series/Retrato/SuperChoque.png" onclick="changeContent('SuperChoque')">
+      <img class="BigHero" src="Imagens/Filmes/Retrato/BigHero.png" onclick="changeContent('BigHero')">
+      <img class="Up" src="Imagens/Filmes/Retrato/Up.png" onclick="changeContent('UpAltasAventuras')">
+      <img class="CaçadoresDeTrolls" src="Imagens/Series/Retrato/CaçadoresDeTrolls.png" onclick="changeContent('CacadoresDeTrolls')">
+      <img class="DivertidaMente" src="Imagens/Filmes/Retrato/DivertidaMente.png" onclick="changeContent('')">
+      <img class="GatoDeBotas2" src="Imagens/Filmes/Retrato/GatoDeBotas2.png" onclick="changeContent('GatoDeBotas2')">
+      <img class="Shrek" src="Imagens/Filmes/Retrato/Shrek.png" onclick="changeContent('Shrek')">
+      <img class="KungFuPanda4" src="Imagens/Filmes/Retrato/KungFuPanda4.png" onclick="changeContent('KungFuPanda4')">
+      <img class="Rio" src="Imagens/Filmes/Retrato/Rio.png" onclick="changeContent('Rio')">
     </div>
   </div>
-
-  <div class="filmes">
+  
+  <div class="categoria">
     <h2>Terror</h2>
-    <img class="arrowright-button9" src="Imagens/arrow.png">
-    <img class="arrowleft-button9" src="Imagens/arrowleft.png">
-    <div class="terror-filmes">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
-      <img class="" src="" onclick="changeContent('')">
+    <img class="arrowright-button3" src="Imagens/arrow.png">
+    <img class="arrowleft-button3" src="Imagens/arrowleft.png">
+    <div class="categoria-terror">
+      <img class="Megan" src="Imagens/Filmes/Retrato/Megan.png" onclick="changeContent('Megan')">
+      <img class="Sorria" src="Imagens/Filmes/Retrato/Sorria.png" onclick="changeContent('Sorria')">
+      <img class="ItACoisa" src="Imagens/Filmes/Retrato/ItACoisa.png" onclick="changeContent('ItACoisa')">
+      <img class="AMorteTeDaParabéns" src="Imagens/Filmes/Retrato/AMorteTeDaParabéns.png" onclick="changeContent('AMorteTeDaParabens')">
+      <img class="IZombie" src="Imagens/Series/Retrato/IZombie.png" onclick="changeContent('IZombie')">
+      <img class="SuperNatural" src="Imagens/Series/Retrato/SuperNatural.png" onclick="changeContent('SuperNatural')">
+      <img class="Premonição" src="Imagens/Filmes/Retrato/Premonição.png" onclick="changeContent('Premonicao')">
+      <img class="JogosMortais" src="Imagens/Filmes/Retrato/JogosMortais.png" onclick="changeContent('JogosMortais')">
+      <img class="Chucky" src="Imagens/Filmes/Retrato/Chucky.png" onclick="changeContent('Chucky')">
+      <img class="Annabelle" src="Imagens/Filmes/Retrato/Annabelle.png" onclick="changeContent('Annabelle')">
     </div>
   </div>
-
   
 
   <div class="inicio">
